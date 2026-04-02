@@ -1,0 +1,20 @@
+{
+  "name": "marlon-endomedical",
+  "version": "1.0.0",
+  "description": "Marlon Endomedical - Precision Surgical Solutions (MERN Stack)",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "node server/seed.js",
+    "install-all": "npm install && npm install --prefix client"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "express-validator": "^7.2.1"
+  }
+}
