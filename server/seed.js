@@ -162,6 +162,206 @@ const products = [
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked', 'IEC 60601-2-2'],
     price: 'POA'
+  },
+
+  // ─── SPINE SURGERY PRODUCTS ───────────────────────────────────────────────
+  {
+    name: 'Transforaminal Endoscope',
+    slug: 'transforaminal-endoscope',
+    category: 'spine-surgery',
+    hsnCode: '901814',
+    subtitle: '30° Direction of View — 181mm Working Length',
+    description: 'Marlon Endomedical Transforaminal Endoscope designed for percutaneous endoscopic lumbar discectomy (PELD) and transforaminal endoscopic spine surgery (TESS). Features a 30° angled optic for optimal visualisation within the foramen, a 4.3mm round working channel for simultaneous instrument and irrigation access, and a compact 6.9mm outer dimension that minimises tissue trauma. Compatible with the full Marlon spine surgery tower including HD Camera, LED Light Source, and irrigation pump.',
+    specifications: [
+      { label: 'Direction of View', value: '30°' },
+      { label: 'Working Channel', value: '4.3mm Round' },
+      { label: 'Working Length', value: '181mm' },
+      { label: 'Outer Dimension', value: '6.9mm' },
+      { label: 'Optic', value: 'Rod lens system' },
+      { label: 'Irrigation', value: 'Continuous flow' },
+      { label: 'Sterilization', value: 'Autoclavable / ETO' },
+      { label: 'Compatibility', value: 'Marlon HD Camera & LED Light Source' }
+    ],
+    features: [
+      '30° Angled Optic for Foramen Visualisation',
+      '4.3mm Round Working Channel',
+      'Minimal Invasive 6.9mm Outer Diameter',
+      'Continuous Irrigation Flow',
+      'Autoclavable Stainless Steel Construction',
+      'Compatible with Marlon Spine Surgery Tower',
+      'Ergonomic Pistol-Grip Handle',
+      'Colour-Coded Port Identification'
+    ],
+    image: '/products/transforaminal-endoscope.jpg',
+    inStock: true,
+    featured: true,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'CDSCO Licensed'],
+    price: 'POA'
+  },
+  {
+    name: 'Interlaminar Endoscope',
+    slug: 'interlaminar-endoscope',
+    category: 'spine-surgery',
+    hsnCode: '901814',
+    subtitle: '0° Direction of View — Interlaminar Approach',
+    description: 'Marlon Endomedical Interlaminar Endoscope optimised for posterior interlaminar endoscopic lumbar surgery (IELS) and cervical endoscopic procedures. The 0° straight optic delivers a direct forward view ideal for decompression and discectomy through the interlaminar window. Features a large working channel for efficient instrument passage, continuous saline irrigation for clear operative field, and robust 316L stainless steel construction rated for full autoclave sterilisation cycles.',
+    specifications: [
+      { label: 'Direction of View', value: '0°' },
+      { label: 'Working Channel', value: '4.1mm Round' },
+      { label: 'Working Length', value: '165mm' },
+      { label: 'Outer Dimension', value: '7.3mm' },
+      { label: 'Optic', value: 'Rod lens system' },
+      { label: 'Approach', value: 'Posterior interlaminar' },
+      { label: 'Sterilization', value: 'Autoclavable / ETO' },
+      { label: 'Compatibility', value: 'Marlon HD Camera & LED Light Source' }
+    ],
+    features: [
+      '0° Straight Optic for Direct Forward View',
+      'Large 4.1mm Working Channel',
+      'Posterior Interlaminar Approach Design',
+      'Continuous Saline Irrigation',
+      '316L Stainless Steel Body',
+      'Full Autoclave Compatible',
+      'Compatible with Marlon Spine Surgery Tower',
+      'Ergonomic Pistol-Grip Handle'
+    ],
+    image: '/products/interlaminar-endoscope.jpg',
+    inStock: true,
+    featured: true,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'CDSCO Licensed'],
+    price: 'POA'
+  },
+  {
+    name: 'Interlaminar Stenoscope',
+    slug: 'interlaminar-stenoscope',
+    category: 'spine-surgery',
+    hsnCode: '901814',
+    subtitle: 'Spinal Stenosis Decompression — Interlaminar Access',
+    description: 'Marlon Endomedical Interlaminar Stenoscope is a dedicated endoscopic instrument for visualisation and decompression of lumbar spinal stenosis via the interlaminar approach. The wider working channel accommodates decompression instruments including Kerrison rongeurs, osteotomes, and RF probes simultaneously with continuous irrigation. Designed for bilateral decompression through a unilateral approach, reducing blood loss and recovery time versus open laminectomy.',
+    specifications: [
+      { label: 'Direction of View', value: '0°' },
+      { label: 'Working Channel', value: '4.7mm Round' },
+      { label: 'Working Length', value: '175mm' },
+      { label: 'Outer Dimension', value: '8.4mm' },
+      { label: 'Application', value: 'Lumbar stenosis decompression' },
+      { label: 'Optic', value: 'Rod lens system, wide field' },
+      { label: 'Sterilization', value: 'Autoclavable / ETO' },
+      { label: 'Compatibility', value: 'Marlon HD Camera & LED Light Source' }
+    ],
+    features: [
+      'Wide 4.7mm Channel for Decompression Instruments',
+      'Bilateral Decompression via Unilateral Access',
+      'Wide-Field Rod Lens Optic',
+      'Compatible with Kerrison Rongeurs & RF Probes',
+      'Continuous Saline Irrigation',
+      'Autoclavable 316L Stainless Steel',
+      'Ergonomic Pistol-Grip Handle',
+      'Compatible with Marlon Spine Surgery Tower'
+    ],
+    image: '/products/interlaminar-stenoscope.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'CDSCO Licensed'],
+    price: 'POA'
+  },
+  {
+    name: 'UBE Spine Surgery Set',
+    slug: 'ube-spine-surgery-set',
+    category: 'spine-surgery',
+    hsnCode: '9018',
+    subtitle: 'Unilateral Biportal Endoscopy — Complete Instrument Set',
+    description: 'Marlon Endomedical UBE (Unilateral Biportal Endoscopy) Set is a comprehensive surgical instrument kit for biportal endoscopic spine surgery. The set includes all instruments required for the biportal technique — where one portal provides endoscopic visualisation while the second provides unrestricted instrument access. Supplied in a precision-machined aluminium sterilisation tray with colour-coded silicone retainers for each instrument. Ideal for lumbar discectomy, decompression, and fusion procedures.',
+    specifications: [
+      { label: 'Set Contents', value: '12 precision instruments' },
+      { label: 'Instrument Material', value: '316L Stainless Steel' },
+      { label: 'Handle Design', value: 'Ergonomic knurled grip' },
+      { label: 'Tray Material', value: 'Anodised aluminium with silicone retainers' },
+      { label: 'Tray Dimensions', value: '350mm × 200mm × 60mm' },
+      { label: 'Sterilization', value: 'Autoclavable 134°C Class B' },
+      { label: 'Technique', value: 'Biportal endoscopic (UBE)' },
+      { label: 'Applications', value: 'Discectomy, decompression, fusion' }
+    ],
+    features: [
+      '12-Piece Complete UBE Instrument Set',
+      'Ergonomic Knurled-Grip Handles',
+      'Anodised Aluminium Sterilisation Tray',
+      'Colour-Coded Blue Silicone Retainers',
+      'Full Class B Autoclave Compatible',
+      'Includes Dilators, Retractors, Curettes & Rongeurs',
+      'Unrestricted Instrument Access Concept',
+      'Compatible with Standard 4mm Arthroscopic Optics'
+    ],
+    image: '/products/ube-spine-surgery-set.jpg',
+    inStock: true,
+    featured: true,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'CDSCO Licensed'],
+    price: 'POA'
+  },
+  {
+    name: 'RF Probe — Endoscopic Spine Surgery',
+    slug: 'rf-probe-endoscopic-spine',
+    category: 'spine-surgery',
+    hsnCode: '901814',
+    subtitle: 'Radiofrequency Ablation & Haemostasis — Spine Endoscopy',
+    description: 'Marlon Endomedical RF Probe for Endoscopic Spine Surgery is a bipolar radiofrequency electrode designed to pass through the working channel of transforaminal and interlaminar endoscopes. Provides precise tissue ablation, haemostasis of bleeding epidural vessels, and annulus modification during percutaneous endoscopic disc procedures. Single-use design eliminates cross-contamination risk and ensures consistent performance on every case.',
+    specifications: [
+      { label: 'Electrode Type', value: 'Bipolar RF' },
+      { label: 'Probe Diameter', value: '3.5mm (fits 4.1mm+ channels)' },
+      { label: 'Working Length', value: '280mm' },
+      { label: 'Tip Configuration', value: 'Angled side-fire' },
+      { label: 'Frequency', value: '100–500 kHz RF' },
+      { label: 'Generator Compatibility', value: 'Marlon ESU & universal RF generators' },
+      { label: 'Use', value: 'Single-use / sterile packed' },
+      { label: 'Indications', value: 'Haemostasis, tissue ablation, annuloplasty' }
+    ],
+    features: [
+      'Bipolar RF for Precise Haemostasis',
+      'Angled Side-Fire Tip for Targeted Ablation',
+      'Fits 4.1mm+ Working Channels',
+      'Single-Use Sterile Packaging',
+      'Compatible with Marlon & Universal RF Generators',
+      'Epidural Vessel Haemostasis',
+      'Annulus Modification / Annuloplasty',
+      'Reduces Operative Blood Loss'
+    ],
+    image: '/products/rf-probe-endoscopic-spine.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'CDSCO Licensed'],
+    price: 'POA'
+  },
+  {
+    name: 'RF Probe — UBE Surgery',
+    slug: 'rf-probe-ube',
+    category: 'spine-surgery',
+    hsnCode: '901814',
+    subtitle: 'Radiofrequency Probe for Biportal Endoscopic Procedures',
+    description: 'Marlon Endomedical RF Probe for UBE (Unilateral Biportal Endoscopy) is a dedicated bipolar RF electrode for the biportal technique, introduced through the instrument portal independent of the endoscope. The longer shaft and flexible tip configuration allow unrestricted manoeuvring in the biportal working space. Provides excellent haemostasis of epidural and paraspinal vessels, soft tissue debridement, and facet joint denervation. Compatible with all standard electrosurgical generators.',
+    specifications: [
+      { label: 'Electrode Type', value: 'Bipolar RF' },
+      { label: 'Probe Diameter', value: '4.2mm' },
+      { label: 'Working Length', value: '330mm' },
+      { label: 'Tip Configuration', value: 'Flexible multi-angle tip' },
+      { label: 'Frequency', value: '100–500 kHz RF' },
+      { label: 'Generator Compatibility', value: 'Universal RF / ESU generators' },
+      { label: 'Use', value: 'Single-use / sterile packed' },
+      { label: 'Indications', value: 'Haemostasis, soft tissue debridement, facet denervation' }
+    ],
+    features: [
+      'Purpose-Built for UBE Biportal Technique',
+      'Flexible Multi-Angle Tip Configuration',
+      'Longer 330mm Shaft for Biportal Access',
+      'Bipolar RF Haemostasis',
+      'Single-Use Sterile Packaging',
+      'Universal Generator Compatibility',
+      'Soft Tissue Debridement',
+      'Facet Joint Denervation'
+    ],
+    image: '/products/rf-probe-ube.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'CDSCO Licensed'],
+    price: 'POA'
   }
 ];
 

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Toast, { useToast } from '../components/Toast';
 import { getProductBySlug, submitInquiry } from '../services/api';
+import { useCart } from '../context/CartContext';
 
 const fallbackProduct = {
   name: 'HD Endoscopy Unit', slug: 'hd-endoscopy-unit', category: 'imaging-systems',
@@ -26,7 +27,9 @@ export default function ProductDetailPage() {
   const [loading, setLoading] = useState(true);
   const [formData, setFormData] = useState({ name: '', email: '', organization: '', message: '' });
   const [submitting, setSubmitting] = useState(false);
+  const [cartAdded, setCartAdded] = useState(false);
   const { toast, showToast, hideToast } = useToast();
+  const { addToCart, items } = useCart();
 
   useEffect(() => {
     loadProduct();
@@ -127,9 +130,29 @@ export default function ProductDetailPage() {
             <div>
               <div className="product-detail__category">{categoryLabel} · HSN {product.hsnCode}</div>
               <h1 className="headline-lg" style={{ margin: '0.5rem 0' }}>{product.name}</h1>
-              <p className="body-md" style={{ color: 'var(--on-surface-variant)', marginBottom: '0.5rem' }}>
+              <p className="body-md" style={{ color: 'var(--on-surface-variant)', marginBottom: '1rem' }}>
                 {product.subtitle}
               </p>
+              {/* Add to Cart CTA */}
+              <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginBottom: '0.5rem' }}>
+                <button
+                  onClick={() => {
+                    addToCart(product);
+                    setCartAdded(true);
+                    setTimeout(() => setCartAdded(false), 2000);
+                  }}
+                  className="btn btn--primary"
+                >
+                  <span className="material-symbols-outlined" style={{ fontSize: '1.1rem' }}>
+                    {cartAdded ? 'check' : items.some(i => i.slug === product.slug) ? 'shopping_cart' : 'add_shopping_cart'}
+                  </span>
+                  {cartAdded ? 'Added to Basket' : items.some(i => i.slug === product.slug) ? 'In Quote Basket' : 'Add to Quote Basket'}
+                </button>
+                <Link to="/cart" className="btn glass-panel">
+                  <span className="material-symbols-outlined" style={{ fontSize: '1.1rem' }}>shopping_cart</span>
+                  View Basket
+                </Link>
+              </div>
             </div>
 
             <p className="body-md" style={{ color: 'var(--on-surface-variant)', lineHeight: 1.8 }}>

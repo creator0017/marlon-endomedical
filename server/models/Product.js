@@ -14,7 +14,7 @@ const productSchema = new mongoose.Schema({
   category: {
     type: String,
     required: true,
-    enum: ['surgical-tools', 'imaging-systems', 'diagnostics', 'monitoring', 'sterilization']
+    enum: ['surgical-tools', 'imaging-systems', 'diagnostics', 'monitoring', 'sterilization', 'spine-surgery']
   },
   hsnCode: {
     type: String,

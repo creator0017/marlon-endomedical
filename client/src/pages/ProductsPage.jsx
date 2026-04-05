@@ -5,12 +5,16 @@ import { getProducts } from '../services/api';
 
 const categories = [
   { key: '', label: 'All Devices' },
+  { key: 'spine-surgery', label: 'Spine Surgery' },
   { key: 'surgical-tools', label: 'Surgical Tools' },
   { key: 'imaging-systems', label: 'Imaging Systems' },
   { key: 'diagnostics', label: 'Diagnostics' },
   { key: 'monitoring', label: 'Monitoring' },
   { key: 'sterilization', label: 'Sterilization' },
 ];
+
+// Shared placeholder for spine surgery products until real images are uploaded to /products/
+const SPINE_IMG = '/products/spine-placeholder.jpg';
 
 const fallbackProducts = [
   { _id: '1', slug: 'hd-endoscopy-unit', name: 'HD Endoscopy Unit', subtitle: 'Precision 4K Visualization', category: 'imaging-systems', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAK9ZMPKWDLAIwRlqlD4pZ-LlBD3kVzi1Qb8NR2QRk7Yk9S5WodKDHJAGxWXFrjcpX95sGoxg1_6f_OempfxYioPo5LjPei8P6gYANZ2SivYW1E0f2Z8N8b68USgg_bR8PyhUailHrIiOi9tRdsBZknawYPBr684hTQmLSlLNpXOIm39FDVLRzZ4ZjsZtxAOLLSsohHUlpakCjMGpm_SHz0O4T_3o183sypDd0uZBRzrBRxZd9GPtvM6ptE6wZVMfpuqMCBvGzTa7s' },
@@ -20,7 +24,10 @@ const fallbackProducts = [
   { _id: '5', slug: 'laparoscopic-camera-system', name: 'Laparoscopic Camera System', subtitle: 'Full HD 1080p Surgical Vision', category: 'imaging-systems', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBhL9JEg8RNSg-uSLPMNeIOePxJpuNtp9FEMr6G1U4u2P8fKI1O40vgmKILqjNkAq2_SmA3hH5s3u1mDNd99crWD0VGeXBRFob7Wi9S18YIf5H5vYYl1Mqsr_GAlsHZ-2Gu_6UVtUgZpDyPR-307x8N4auvGptjWoV5FUmbXCqUeJ71hJfWVStnU3zuvJAzy6Vn-pnYUfhIxqoWOz-VWkap1Mu_AtSP6iV-3UdhnXxt0u3N2i70TbmCPcTnI_BRgwdRlRSWrstb5y0' },
   { _id: '6', slug: 'surgical-scalpel-kit', name: 'Surgical Scalpel Kit', subtitle: 'Carbon Steel Precision Blades', category: 'surgical-tools', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCzDmOciNw-T_lq5ei30TBkZJYef9lJoSCYSD4Qs0m-qBcftzXBYugIzy4gsR6p_Uofapn657hUPqEydftt7On9S9-fYGMud1RD9RmZtfDvGo3JefTZXoPS4XsgfOO5QglDJPQVVmiK0vNGvVtwBB9kyRxMGf_1VI8611VphYtNApa3YchPu--Y7jewQSKQSm9LGBrJr9QepvlZwViVHJDGZrS5GHubgChH9bBbxpkMNxthetEoHRE_kKxZZTBbD-XeIiRUTbZBkl0' },
   { _id: '7', slug: 'pulse-oximeter-pro', name: 'Pulse Oximeter Pro', subtitle: 'Clinical-Grade SpO2 Monitoring', category: 'diagnostics', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBKY8m_2TN6EfCD1fief0R5ABF7yoHZWzp6nNgv0G_yy10naGiobzRWH2SG2J3atVu3vTHgUuau-KP-j9HPNSL3G9vo5TYIcVCjgP4sqWE0lWkWmCuG0D462TM83f16oxaUD9I1mkDEYeTNGJXBXLvpyS04WF8nJWv8wVFyuxRmLJdkkYwiO6o5fr2j7Z65f5P_sEAo04EvB3XJIBkVSLPK9oVPjcrxJKIX5sRi15-UczFp8zU8fV1D2BQA-iUQySyEzLAPtDXJSUs' },
-  { _id: '8', slug: 'electrosurgical-generator', name: 'Electrosurgical Generator', subtitle: 'Advanced Bipolar/Monopolar ESU', category: 'surgical-tools', price: 'POA', inStock: false, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBhL9JEg8RNSg-uSLPMNeIOePxJpuNtp9FEMr6G1U4u2P8fKI1O40vgmKILqjNkAq2_SmA3hH5s3u1mDNd99crWD0VGeXBRFob7Wi9S18YIf5H5vYYl1Mqsr_GAlsHZ-2Gu_6UVtUgZpDyPR-307x8N4auvGptjWoV5FUmbXCqUeJ71hJfWVStnU3zuvJAzy6Vn-pnYUfhIxqoWOz-VWkap1Mu_AtSP6iV-3UdhnXxt0u3N2i70TbmCPcTnI_BRgwdRlRSWrstb5y0' },
+  // ── Spine Surgery Products ──────────────────────────────────────────────
+  { _id: 'sp1', slug: 'transforaminal-endoscope',      name: 'Transforaminal Endoscope',         subtitle: '30° View · 4.3mm Channel · 181mm Length',           category: 'spine-surgery', price: 'POA', inStock: true,  image: '/products/transforaminal-endoscope.jpg' },
+  { _id: 'sp3', slug: 'telescope-10mm',                name: 'Telescope',                        subtitle: 'OD: 10.0 mm, ID: 7.1 mm, Length: 139mm',            category: 'spine-surgery', price: 'POA', inStock: true,  image: '/products/telescope.jpg' },
+  { _id: 'sp4', slug: 'ube-spine-surgery-set',         name: 'UBE Spine Surgery Set',            subtitle: '12-Piece Biportal Endoscopy Instrument Set',        category: 'spine-surgery', price: 'POA', inStock: true,  image: '/products/ube-spine-surgery-set.jpg' },
 ];
 
 export default function ProductsPage() {

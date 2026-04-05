@@ -37,16 +37,24 @@ export default function Footer() {
                 <li><Link to="/" className="footer__link">Home</Link></li>
                 <li><Link to="/products" className="footer__link">Products</Link></li>
                 <li><Link to="/about" className="footer__link">About Us</Link></li>
+                <li><Link to="/quote" className="footer__link">Request a Quote</Link></li>
+                <li><Link to="/cart" className="footer__link">Quote Basket</Link></li>
+                <li><Link to="/certifications" className="footer__link">Certifications</Link></li>
+                <li><Link to="/faq" className="footer__link">FAQ</Link></li>
+                <li><Link to="/blog" className="footer__link">Insights &amp; News</Link></li>
+                <li><Link to="/partners" className="footer__link">Partners</Link></li>
                 <li><Link to="/contact" className="footer__link">Contact</Link></li>
               </ul>
             </div>
             <div>
               <h5 className="footer__links-title">Categories</h5>
               <ul style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                <li><Link to="/products?category=surgical-tools" className="footer__link">Surgical Tools</Link></li>
-                <li><Link to="/products?category=imaging-systems" className="footer__link">Imaging Systems</Link></li>
-                <li><Link to="/products?category=diagnostics" className="footer__link">Diagnostics</Link></li>
-                <li><Link to="/products?category=monitoring" className="footer__link">Monitoring</Link></li>
+                <li><Link to="/categories/spine-surgery" className="footer__link">Spine Surgery</Link></li>
+                <li><Link to="/categories/surgical-tools" className="footer__link">Surgical Tools</Link></li>
+                <li><Link to="/categories/imaging-systems" className="footer__link">Imaging Systems</Link></li>
+                <li><Link to="/categories/diagnostics" className="footer__link">Diagnostics</Link></li>
+                <li><Link to="/categories/monitoring" className="footer__link">Monitoring</Link></li>
+                <li><Link to="/categories/sterilization" className="footer__link">Sterilization</Link></li>
               </ul>
             </div>
           </div>
@@ -55,6 +63,10 @@ export default function Footer() {
         <div className="footer__bottom" style={{ borderTop: '1px solid rgba(194, 198, 211, 0.1)' }}>
           <div className="footer__copyright">
             © {currentYear} Marlon Endomedical &amp; Mannat Hospital. All rights reserved.
+            <span style={{ margin: '0 0.5rem', opacity: 0.4 }}>·</span>
+            <Link to="/privacy-policy" className="footer__link" style={{ fontSize: 'inherit', opacity: 0.7 }}>Privacy Policy</Link>
+            <span style={{ margin: '0 0.5rem', opacity: 0.4 }}>·</span>
+            <Link to="/terms" className="footer__link" style={{ fontSize: 'inherit', opacity: 0.7 }}>Terms &amp; Conditions</Link>
           </div>
           <div className="footer__status">
             <span className="footer__status-dot"></span>
