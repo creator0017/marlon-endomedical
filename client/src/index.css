@@ -483,9 +483,15 @@ textarea.input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--space-4) var(--space-8);
+  padding: var(--space-3) var(--space-4);
   max-width: 1440px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .header__inner {
+    padding: var(--space-4) var(--space-8);
+  }
 }
 
 .header__logo {
@@ -562,7 +568,19 @@ textarea.input {
 .header__actions {
   display: flex;
   align-items: center;
-  gap: var(--space-4);
+  gap: var(--space-2);
+}
+
+@media (min-width: 768px) {
+  .header__actions {
+    gap: var(--space-4);
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none !important;
+  }
 }
 
 /* Mobile Menu */
