@@ -487,7 +487,7 @@ Message: ${formData.message}`;
       showToast('Could not submit inquiry. Please try again.', 'error');
     }
     window.open(`https://wa.me/919876543210?text=${encodeURIComponent(inquiryText)}`, '_blank');
-    window.location.href = `mailto:info@marlonendomedical.com?subject=Product Inquiry: ${product?.name}&body=${encodeURIComponent(inquiryText)}`;
+    window.location.href = `mailto:sales@marlonendomedical.com?subject=Product Inquiry: ${product?.name}&body=${encodeURIComponent(inquiryText)}`;
     setSubmitting(false);
   };
 
