@@ -136,39 +136,6 @@ export default function HomePage() {
           </div>
 
           <div className="bento-grid">
-            {/* HSN 901814 — Electro-Diagnostic */}
-            <div className="bento-card bento-card--span2 glass-panel animate-in">
-              <div className="bento-card__bg-icon">
-                <span className="material-symbols-outlined">biotech</span>
-              </div>
-              <div style={{ position: 'relative', zIndex: 10 }}>
-                <div className="bento-card__label">Category HSN 901814</div>
-                <h3 className="headline-md" style={{ marginBottom: '1.5rem' }}>Electro-Diagnostic Apparatus</h3>
-                <div className="bento-card__features">
-                  <div>
-                    <div className="bento-card__feature">
-                      <span className="material-symbols-outlined">check_circle</span>
-                      Ultrasonic Scanning
-                    </div>
-                    <div className="bento-card__feature" style={{ marginTop: '0.75rem' }}>
-                      <span className="material-symbols-outlined">check_circle</span>
-                      MRI Support Systems
-                    </div>
-                  </div>
-                  <div>
-                    <div className="bento-card__feature">
-                      <span className="material-symbols-outlined">check_circle</span>
-                      Scintigraphic Devices
-                    </div>
-                    <div className="bento-card__feature" style={{ marginTop: '0.75rem' }}>
-                      <span className="material-symbols-outlined">check_circle</span>
-                      Patient Monitoring
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             {/* ISO Certification */}
             <div className="bento-card bento-card--iso glass-panel animate-in animate-delay-1">
               <span className="material-symbols-outlined" style={{ fontSize: '3rem', color: 'var(--primary-fixed-dim)' }}>verified_user</span>
