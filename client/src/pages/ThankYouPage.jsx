@@ -95,7 +95,7 @@ export default function ThankYouPage() {
           <p className="label-sm" style={{ color: 'var(--on-surface-variant)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>
             What happens next
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1rem' }}>
+          <div className="grid-3col" style={{ gap: '1rem' }}>
             {[
               { icon: 'mark_email_read', step: '1', label: 'Acknowledgement email within 2 hours' },
               { icon: 'manage_search',   step: '2', label: 'Our team reviews your requirements' },

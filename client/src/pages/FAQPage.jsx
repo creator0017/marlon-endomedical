@@ -36,7 +36,7 @@ const faqCategories = [
     faqs: [
       {
         q: 'What product categories does Marlon Endomedical carry?',
-        a: 'We distribute across five major categories: Surgical Tools (laparoscopic, endoscopic, and open surgery instruments), Imaging Systems (ultrasound, X-ray, endoscopy cameras), Diagnostics Equipment (lab analyzers, point-of-care devices), Patient Monitoring Systems (vital sign monitors, ICU equipment), and Sterilization Systems (autoclaves, UV sterilizers).',
+        a: 'We distribute across three major categories: Spine Surgery, Surgical Tools (including general, laparoscopic, and B2B monitoring instruments), and Imaging Systems (HD cameras, light sources, and visualization towers).',
       },
       {
         q: 'Are your products OEM or branded?',
@@ -49,52 +49,6 @@ const faqCategories = [
       {
         q: 'Do your products comply with international standards?',
         a: 'All products we distribute comply with relevant international standards and regulations including ISO 13485:2016, CE marking (for EU-bound shipments), BIS/CDSCO approvals (for Indian market), and HSN classification 9018/901814 for customs purposes. Country-specific documentation is provided with each shipment.',
-      },
-    ],
-  },
-  {
-    id: 'shipping',
-    icon: 'local_shipping',
-    label: 'Shipping & Logistics',
-    faqs: [
-      {
-        q: 'What countries do you ship to?',
-        a: 'We ship globally. Our primary markets include India, Southeast Asia, the Middle East, Africa, and select European markets. For countries with specific medical device import regulations, we assist with required documentation including import permits, certificates of origin, and regulatory submissions.',
-      },
-      {
-        q: 'What are typical lead times?',
-        a: 'Standard stock items ship within 3–7 business days. Custom or made-to-order products typically require 3–6 weeks. Emergency procurement for critical care equipment can be expedited within 24–48 hours subject to stock availability. All lead times are stated in your formal quotation.',
-      },
-      {
-        q: 'Do you offer cold-chain or specialized packaging?',
-        a: 'Yes. We provide temperature-controlled cold-chain logistics for reagents, biologicals, and temperature-sensitive diagnostic equipment. Fragile imaging systems and sensitive instruments are shipped in custom-engineered protective packaging with shock and humidity indicators.',
-      },
-      {
-        q: 'Who is responsible for import duties and customs clearance?',
-        a: 'Shipments are typically made on EXW, FOB, or CIF Incoterms as agreed in your purchase order. For CIF shipments, we handle freight and insurance to the destination port. Import duties, customs clearance, and last-mile delivery are the buyer\'s responsibility unless otherwise specified in your contract.',
-      },
-    ],
-  },
-  {
-    id: 'support',
-    icon: 'support_agent',
-    label: 'Support & Compliance',
-    faqs: [
-      {
-        q: 'Do you provide after-sales technical support?',
-        a: 'Yes. Our team of biomedical engineers provides installation support, operator training, and first-line technical troubleshooting for major equipment purchases. For ongoing maintenance, we can arrange service agreements with authorized service partners in your region.',
-      },
-      {
-        q: 'What warranty is provided on your products?',
-        a: 'Warranty terms vary by product and manufacturer. Standard warranty is 12 months from the date of shipment for most equipment. Capital equipment (imaging systems, large monitors) typically carries 24 months. Consumable instruments and single-use items do not carry a warranty beyond quality conformity at time of delivery.',
-      },
-      {
-        q: 'How do I report a product defect or quality issue?',
-        a: 'Contact support@marlonendomedical.com with your order number, product details, batch/lot number (if applicable), and a description of the issue. Our quality team will initiate a formal product complaint process within 2 business days, in accordance with ISO 13485 post-market surveillance requirements.',
-      },
-      {
-        q: 'Are you registered with CDSCO (India)?',
-        a: 'Yes. Marlon Endomedical Devices Pvt Ltd operates in compliance with the Medical Devices Rules, 2017 under the Central Drugs Standard Control Organisation (CDSCO). We hold appropriate import and distribution licenses for regulated medical device categories. Compliance certificates are available upon request.',
       },
     ],
   },
@@ -278,7 +232,7 @@ export default function FAQPage() {
             </div>
           ) : (
             /* Category tabs + content */
-            <div style={{ display: 'grid', gridTemplateColumns: '220px minmax(0, 1fr)', gap: '3rem', alignItems: 'start' }}>
+            <div className="faq-layout">
               {/* Category Nav */}
               <div className="glass-panel animate-in" style={{ padding: '1rem', borderRadius: 'var(--radius-xl)', position: 'sticky', top: '6rem' }}>
                 {faqCategories.map((cat) => (

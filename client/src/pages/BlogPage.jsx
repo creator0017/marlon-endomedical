@@ -94,7 +94,7 @@ const allCategories = [...new Set(posts.map((p) => p.category))];
 function PostCard({ post, size = 'normal' }) {
   if (size === 'featured') {
     return (
-      <div className="glass-panel animate-in" style={{ padding: '2rem', borderRadius: 'var(--radius-xl)', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', alignItems: 'center', position: 'relative', overflow: 'hidden' }}>
+      <div className="glass-panel animate-in grid-2col" style={{ padding: '2rem', borderRadius: 'var(--radius-xl)', alignItems: 'center', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '3px', background: 'linear-gradient(90deg, var(--primary-container), var(--secondary))' }} />
         <div>
           <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '1rem' }}>
@@ -262,7 +262,7 @@ export default function BlogPage() {
           )}
 
           {/* Newsletter CTA */}
-          <div className="glass-panel animate-in" style={{ padding: '2rem', borderRadius: 'var(--radius-xl)', marginTop: '4rem', display: 'grid', gridTemplateColumns: '1fr auto', gap: '2rem', alignItems: 'center' }}>
+          <div className="glass-panel animate-in grid-newsletter" style={{ padding: '2rem', borderRadius: 'var(--radius-xl)', marginTop: '4rem', alignItems: 'center' }}>
             <div>
               <h3 className="headline-md" style={{ marginBottom: '0.5rem' }}>Stay ahead of medical device regulations</h3>
               <p className="body-md" style={{ color: 'var(--on-surface-variant)' }}>Get our monthly digest of regulatory updates, procurement guides, and product news.</p>

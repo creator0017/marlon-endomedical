@@ -94,7 +94,7 @@ export default function CartPage() {
 
       <section className="section" style={{ padding: '4rem 0' }} id="cart-content">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 2fr) minmax(0, 1fr)', gap: '2.5rem', alignItems: 'start' }}>
+          <div className="sidebar-layout" style={{ gap: '2.5rem', alignItems: 'start' }}>
 
             {/* Items list */}
             <div style={{ display: 'grid', gap: '1rem' }}>
@@ -113,8 +113,8 @@ export default function CartPage() {
               {items.map((item) => (
                 <div
                   key={item.slug}
-                  className="glass-panel animate-in"
-                  style={{ padding: '1.25rem', borderRadius: 'var(--radius-xl)', display: 'grid', gridTemplateColumns: '5rem 1fr auto', gap: '1.25rem', alignItems: 'center' }}
+                  className="glass-panel animate-in cart-item-grid"
+                  style={{ padding: '1.25rem', borderRadius: 'var(--radius-xl)' }}
                 >
                   {/* Thumbnail */}
                   <div style={{ width: '5rem', height: '5rem', borderRadius: 'var(--radius-md)', overflow: 'hidden', background: 'var(--surface-container-high)', flexShrink: 0 }}>
@@ -255,7 +255,7 @@ export default function CartPage() {
               </button>
             </div>
             <form onSubmit={handleSubmit} style={{ padding: '1.75rem', display: 'grid', gap: '1rem' }}>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+              <div className="grid-2col" style={{ gap: '1rem' }}>
                 <input type="text" className="input" placeholder="Full Name *" value={contactData.name} onChange={upd('name')} required />
                 <input type="email" className="input" placeholder="Email Address *" value={contactData.email} onChange={upd('email')} required />
               </div>

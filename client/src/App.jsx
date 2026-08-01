@@ -20,8 +20,7 @@ import PartnersPage from './pages/PartnersPage'
 import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
 import CheckoutPage from './pages/CheckoutPage'
-import LoginPage from './pages/LoginPage'
-import DashboardPage from './pages/DashboardPage'
+
 
 function App() {
   return (
@@ -46,8 +45,7 @@ function App() {
           <Route path="/partners" element={<PartnersPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/dashboard" element={<DashboardPage />} />
+
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>

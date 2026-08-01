@@ -362,6 +362,201 @@ const products = [
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked', 'CDSCO Licensed'],
     price: 'POA'
+  },
+
+  // ── Products from Spine New Products PDF (Beijing Chunlizhengda) ─────────────
+  {
+    name: 'CL MIS Cervical Fusion Cage',
+    slug: 'cl-mis-cervical-fusion-cage',
+    category: 'spine-surgery',
+    hsnCode: '902139',
+    subtitle: '3D Printed Titanium Bionic Bone Trabecular Cage (IVN)',
+    description: 'The CL MIS Cervical Fusion Cage (IVN) is a next-generation 3D-printed titanium interbody fusion cage with bionic bone trabecular microporous structure. Designed for minimally invasive anterior cervical discectomy and fusion (ACDF), it features 80% porosity with 600–800µm pore size to promote bone ingrowth and vascularization. Its modulus of elasticity closely matches human cancellous bone, reducing stress masking while delivering superior anti-subsidence performance and immediate weight-bearing capacity.',
+    specifications: [
+      { label: 'Model', value: 'IVN' },
+      { label: 'Footprint', value: '12.5 × 15 mm' },
+      { label: 'Height Range', value: '4 / 5 / 6 / 7 / 8 / 9 / 10 mm' },
+      { label: 'Lordotic Angles', value: '0° / 4° / 8°' },
+      { label: 'Porosity', value: '80%' },
+      { label: 'Pore Size', value: '600–800 µm' },
+      { label: 'Material', value: 'TC4 Titanium Alloy (3D Printed)' },
+      { label: 'Approach', value: 'Anterior Cervical (ACDF / MIS)' }
+    ],
+    features: [
+      'Bionic bone trabecular microporous structure — 80% porosity',
+      'Promotes bone cell migration, ingrowth, and vascularization',
+      'Modulus of elasticity close to cancellous bone — reduces stress masking',
+      'High anatomical match with endplate for excellent anti-subsidence stability',
+      'X-ray markers for ideal intraoperative implant positioning',
+      'Immediate weight-bearing capacity after implantation',
+      'High toughness, high plasticity, excellent anti-fatigue performance',
+      '3D-printed titanium — lower settling rate versus PEEK cages'
+    ],
+    image: '/products/cl-mis-cervical-fusion-cage.png',
+    inStock: true,
+    featured: true,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'NMPA Registered'],
+    price: 'POA'
+  },
+  {
+    name: 'CL Shaped Thoracolumbar Fusion Cage',
+    slug: 'cl-shaped-thoracolumbar-fusion-cage',
+    category: 'spine-surgery',
+    hsnCode: '902139',
+    subtitle: 'Additive Manufacturing Interbody Fusion Device (IVO)',
+    description: 'The CL Shaped Thoracolumbar Fusion Apparatus (IVO) is an additively manufactured 3D-printed titanium interbody fusion cage engineered for thoracolumbar surgical procedures. Its bone-like trabecular structure with 80% porosity and 600–800µm pores facilitates superior bone cell migration and growth. The anatomical surface design matches endplate anatomy for optimal load transfer, and the elastic modulus closely mirrors cancellous bone, avoiding stress occlusion for long-term stability.',
+    specifications: [
+      { label: 'Model', value: 'IVO' },
+      { label: 'Footprint Options', value: '10 × 24 mm, 10 × 27 mm' },
+      { label: 'Height Range', value: '7–15 mm' },
+      { label: 'Lordotic Angle', value: '4°' },
+      { label: 'Porosity', value: '80%' },
+      { label: 'Pore Size', value: '600–800 µm' },
+      { label: 'Material', value: 'TC4 Titanium Alloy (3D Printed)' },
+      { label: 'Application', value: 'TILIF / OLIF / ALIF' }
+    ],
+    features: [
+      'Bone-like trabecular structure with 80% porosity',
+      'Anatomical surface design matching endplate anatomy',
+      'Elastic modulus closer to cancellous bone — avoids stress occlusion',
+      'Porous bone trabecular design for bone growth and osseointegration',
+      'Compatible with TILIF, OLIF, and ALIF surgical approaches',
+      'Product customization available for specific anatomical requirements',
+      'Superior initial stability through trabecular surface design'
+    ],
+    image: '/products/cl-thoracolumbar-fusion-cage-ivo.jpg',
+    inStock: true,
+    featured: true,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'NMPA Registered'],
+    price: 'POA'
+  },
+  {
+    name: 'CL Large Cage',
+    slug: 'cl-large-cage',
+    category: 'spine-surgery',
+    hsnCode: '902139',
+    subtitle: 'One of the Largest 3D-Printed Interbody Fusion Devices (IVD)',
+    description: 'The CL Large Cage (IVD) is one of the largest 3D-printed titanium interbody fusion devices available on the market, designed for OLIF and ALIF procedures where a large footprint is required. Its bone trabecular surface design increases contact area to avoid fusion sink (cage subsidence) and enables robust osseointegration. The anatomical surface closely matches endplate anatomy, and the elastic modulus is tuned to cancellous bone to prevent stress shielding.',
+    specifications: [
+      { label: 'Model', value: 'IVD' },
+      { label: 'Footprint Options', value: '22 × 40 mm, 22 × 45 mm, 22 × 50 mm' },
+      { label: 'Height Range', value: '8–15 mm' },
+      { label: 'Lordotic Angle', value: '7°' },
+      { label: 'Material', value: 'TC4 Titanium Alloy (3D Printed)' },
+      { label: 'Application', value: 'OLIF / ALIF (Lateral & Anterior Approaches)' }
+    ],
+    features: [
+      'One of the largest fusion devices on the market',
+      'Large bone trabecular contact surface — avoids fusion sink',
+      'Anatomical surface design matching endplate anatomy',
+      'Elastic modulus closer to cancellous bone',
+      'Osseous integration for enhanced spinal stability',
+      'Porous bone trabecular design for real bone growth'
+    ],
+    image: '/products/cl-large-cage-ivd.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'NMPA Registered'],
+    price: 'POA'
+  },
+  {
+    name: 'Artificial Vertebral Body Fixation System',
+    slug: 'artificial-vertebral-body-fixation-system',
+    category: 'spine-surgery',
+    hsnCode: '902139',
+    subtitle: 'Adjustable Titanium Vertebral Prosthesis for Corpectomy Reconstruction',
+    description: 'The Artificial Vertebral Body Fixation System is an expandable titanium vertebral prosthesis designed for total or subtotal vertebral body replacement following corpectomy due to trauma, tumor, degeneration, or infection. The cylindrical hollow adjustable design allows precise intraoperative height adjustment, restoring intervertebral space and spinal column stability. Wide, concave-convex end caps conform to endplate anatomy to prevent subsidence and maintain sagittal alignment. Available in 22mm and 26mm diameters with end cap angle options of 0°, 3°, and 8°.',
+    specifications: [
+      { label: 'Model', value: 'I Series' },
+      { label: 'Diameter Options', value: '22 mm, 26 mm' },
+      { label: 'End Cap Angles', value: '0°, 3°, 8°' },
+      { label: 'Height Range', value: '20–44 mm (multiple sizes)' },
+      { label: 'Material', value: 'Titanium Alloy' },
+      { label: 'Approach', value: 'Anterior / Anterolateral' },
+      { label: 'Segments', value: 'T1–L5 (Thoracolumbar)' }
+    ],
+    features: [
+      'Cylindrical hollow adjustable design for intraoperative height setting',
+      'Open structure for various anatomical configurations',
+      'Wide vertebral seat area to minimize settlement/subsidence',
+      'Concave-convex endplate design for immediate self-stability post-implantation',
+      'End cap angles 0°, 3°, 8° for sagittal correction and lordosis/kyphosis restoration',
+      'Large bone grafting volume with lateral round holes for rapid fusion',
+      'Multiple size specifications for individualized patient anatomy',
+      'Easy single-step locking of distraction device',
+      'Compatible with anterior and anterolateral surgical approaches'
+    ],
+    image: '/products/artificial-vertebral-body-overview.png',
+    inStock: true,
+    featured: true,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'NMPA Registered'],
+    price: 'POA'
+  },
+  {
+    name: '3D Porous Vertebral Prosthesis — Cervical (I-A)',
+    slug: '3d-porous-vertebral-prosthesis-cervical',
+    category: 'spine-surgery',
+    hsnCode: '902139',
+    subtitle: 'Titanium Alloy Bone Trabecular Cervical Vertebral Prosthesis',
+    description: 'The 3D Porous Vertebral Prosthesis (Cervical I-A) is a laser-selectively melted TC4 titanium alloy vertebral replacement implant featuring 80% porosity and 800µm pore structure. Designed for cervical vertebral body replacement, the hollow structure mimics bone trabeculae for superior bone ingrowth and fusion. The upper and lower end faces feature anatomical design with multiple anti-slip teeth, and the angle options (4° and 8°) allow curvature restoration. Cortical bone-like elastic modulus avoids stress masking and bone resorption.',
+    specifications: [
+      { label: 'Model', value: 'Vertebral Prosthesis I-A' },
+      { label: 'Footprint Options', value: '10×12, 12×14, 14×16 mm' },
+      { label: 'Height Range', value: '12–90 mm (in 2 mm steps)' },
+      { label: 'Lordotic Angles', value: '4° / 8°' },
+      { label: 'Porosity', value: '80%' },
+      { label: 'Pore Structure', value: '800 µm' },
+      { label: 'Material', value: 'TC4 Titanium Alloy (Laser SLM)' },
+      { label: 'Application', value: 'Cervical Corpectomy Reconstruction' }
+    ],
+    features: [
+      'Multi-hole quilting frame design imitating bone trabecular structure',
+      '80% porosity for superior bone ingrowth and fusion',
+      'Laser selective melting (SLM) manufacturing — TC4 titanium alloy',
+      'Anatomical upper/lower end face design with anti-slip teeth',
+      'Cortical bone-like elastic modulus — prevents stress masking',
+      'Multiple angle options for cervical curvature restoration',
+      'Excellent stability through surface microporous structure design',
+      'Biocompatible material favorable for bone ingrowth'
+    ],
+    image: '/products/vertebral-prosthesis-ia-cervical.png',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'NMPA Registered'],
+    price: 'POA'
+  },
+  {
+    name: '3D Porous Vertebral Prosthesis — Lumbar (I-B)',
+    slug: '3d-porous-vertebral-prosthesis-lumbar',
+    category: 'spine-surgery',
+    hsnCode: '902139',
+    subtitle: 'Titanium Alloy Bone Trabecular Lumbar Vertebral Prosthesis',
+    description: 'The 3D Porous Vertebral Prosthesis (Lumbar I-B) is a TC4 titanium alloy vertebral replacement device for thoracolumbar corpectomy reconstruction. Manufactured via laser selective zone melting, the hollow structure with outer porous bone trabecular ring achieves 80% porosity for bone integration. Available in multiple large footprint sizes (up to 30×36mm) with height adjustment from 30–120mm, it accommodates a broad range of thoracolumbar anatomy. Multiple angle options (0°, 4°, 8°) enable precise sagittal balance restoration.',
+    specifications: [
+      { label: 'Model', value: 'Vertebral Prosthesis I-B' },
+      { label: 'Footprint Options', value: '15×21, 16×22, 17×23, 18×24, 24×30, 30×36 mm' },
+      { label: 'Height Range', value: '30–120 mm (in 10 mm steps)' },
+      { label: 'Lordotic Angles', value: '0° / 4° / 8°' },
+      { label: 'Porosity', value: '80%' },
+      { label: 'Pore Structure', value: '800 µm' },
+      { label: 'Material', value: 'TC4 Titanium Alloy (Laser SLM)' },
+      { label: 'Application', value: 'Thoracolumbar Corpectomy Reconstruction' }
+    ],
+    features: [
+      'Large footprint options for thoracolumbar anatomy (up to 30×36mm)',
+      '80% porosity bone trabecular design for superior osseointegration',
+      'Laser selective melting (SLM) manufacturing — TC4 titanium alloy',
+      'Hollow cylindrical structure with large bone grafting volume',
+      'Anatomical endplate design with multiple anti-slip teeth',
+      'Multiple angle options (0°, 4°, 8°) for sagittal balance restoration',
+      'Height range 30–120mm for broad thoracolumbar coverage',
+      'Biocompatible — avoids stress masking and bone resorption'
+    ],
+    image: '/products/vertebral-prosthesis-ib-lumbar.png',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked', 'NMPA Registered'],
+    price: 'POA'
   }
 ];
 
@@ -373,7 +568,12 @@ const seedDB = async () => {
     await Product.deleteMany({});
     console.log('Cleared existing products.');
 
-    const created = await Product.insertMany(products);
+    // Keep images as-is, just ensure slug is set
+    const productsWithSlugs = products.map(p => ({
+      ...p,
+      slug: p.slug || p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+    }));
+    const created = await Product.insertMany(productsWithSlugs);
     console.log(`✓ Seeded ${created.length} products successfully.`);
 
     process.exit(0);

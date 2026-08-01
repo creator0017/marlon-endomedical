@@ -36,90 +36,85 @@ const categoryMeta = {
     useCases: ['Endoscopy', 'Laparoscopy', 'Radiology', 'Bronchoscopy', 'Cystoscopy', 'ERCP'],
     hsnCode: '9018 / 9022',
   },
-  diagnostics: {
-    label: 'Diagnostics Equipment',
-    icon: 'biotech',
-    accentColor: '#0891b2',
-    glowColor: 'rgba(8,145,178,0.3)',
-    tagline: 'Accurate diagnostics at the point of care and in the laboratory',
-    description: 'Our diagnostics range spans point-of-care analysers, haematology and biochemistry systems, pulse oximeters, spirometers, and rapid test platforms. Designed for hospital labs, emergency departments, and outpatient clinics, these instruments deliver clinical-grade accuracy with minimal maintenance requirements.',
-    highlights: [
-      { icon: 'speed', label: 'Rapid Result Turnaround' },
-      { icon: 'network_check', label: 'LIS Connectivity' },
-      { icon: 'science', label: 'WHO Pre-qualified Reagents' },
-      { icon: 'straighten', label: 'Wide Measurement Range' },
-    ],
-    useCases: ['Pathology Labs', 'Emergency Medicine', 'ICU', 'OPD', 'Blood Banks', 'Point-of-Care'],
-    hsnCode: '9027 / 9018',
-  },
-  monitoring: {
-    label: 'Patient Monitoring',
-    icon: 'monitor_heart',
-    accentColor: '#7c3aed',
-    glowColor: 'rgba(124,58,237,0.25)',
-    tagline: 'Continuous, reliable monitoring for critical and general care',
-    description: 'Multi-parameter patient monitors, bedside telemetry, central monitoring stations, waveform capnographs, and foetal monitors — our monitoring portfolio covers ICU, CCU, NICU, OT, and general ward applications. Systems integrate with major HIS platforms and support standard communication protocols.',
-    highlights: [
-      { icon: 'favorite', label: 'ECG, SpO2, NIBP, EtCO2 Parameters' },
-      { icon: 'wifi', label: 'Wireless & Wired Connectivity' },
-      { icon: 'screenshot_monitor', label: 'Central Station Compatible' },
-      { icon: 'battery_charging_full', label: 'Extended Battery Backup' },
-    ],
-    useCases: ['ICU / CCU', 'Operating Theatre', 'NICU / PICU', 'Step-Down Units', 'Emergency', 'Wards'],
-    hsnCode: '9018 / 9019',
-  },
-  sterilization: {
-    label: 'Sterilization Systems',
-    icon: 'sanitizer',
-    accentColor: '#059669',
-    glowColor: 'rgba(5,150,105,0.3)',
-    tagline: 'Infection control solutions that protect patients and staff',
-    description: 'Our sterilisation portfolio includes Class B pre-vacuum and gravity autoclaves, ETO sterilisers, low-temperature plasma systems, UV disinfection units, and washer-disinfectors. Compliant with EN 13060, ISO 11135, and ISO 15883 standards, these systems are engineered for hospital CSSD and operating theatre use.',
-    highlights: [
-      { icon: 'check_circle', label: 'EN 13060 & ISO 11135 Compliant' },
-      { icon: 'data_usage', label: 'Digital Cycle Documentation' },
-      { icon: 'thermostat', label: 'Multiple Cycle Programs' },
-      { icon: 'timer', label: 'Rapid Cycle Options Available' },
-    ],
-    useCases: ['CSSD', 'Operating Theatre', 'Dental Clinics', 'Endoscopy Units', 'Laboratory', 'Day Surgery'],
-    hsnCode: '8419 / 9018',
-  },
+
   'spine-surgery': {
     label: 'Spine Surgery',
     icon: 'orthopedics',
     accentColor: '#c2410c',
     glowColor: 'rgba(194,65,12,0.3)',
-    tagline: 'Precision endoscopic instruments for minimally invasive spine surgery',
-    description: 'Marlon Endomedical\'s spine surgery portfolio includes transforaminal and interlaminar endoscopes, interlaminar stenoscopes, complete UBE (Unilateral Biportal Endoscopy) instrument sets, and bipolar RF probes — all engineered specifically for percutaneous endoscopic spine procedures. Every instrument is manufactured from 316L stainless steel with autoclave-grade build quality and is compatible with the Marlon HD Camera and LED Light Source tower.',
+    tagline: 'Comprehensive spinal fixation & interbody fusion implant systems',
+    description: 'Marlon Endomedical\'s spine surgery portfolio includes anterior and posterior cervical fixation systems, CF posterior spinal internal fixators across multiple screw series (U3/U4, U6/U7, U8/U9, U15/U16/U18, U Screw 10/11/17/19, U21, U14), and RZ-series lumbar interbody fusion cages. Every implant is manufactured from Grade 5 titanium alloy or PEEK-OPTIMA with rigorous quality assurance and full regulatory compliance.',
     highlights: [
-      { icon: 'precision_manufacturing', label: 'Transforaminal & Interlaminar Endoscopes' },
-      { icon: 'inventory_2', label: 'Complete 12-Piece UBE Instrument Set' },
-      { icon: 'bolt', label: 'Bipolar RF Probes for Haemostasis' },
-      { icon: 'hd', label: 'Compatible with Marlon HD Camera Tower' },
+      { icon: 'precision_manufacturing', label: 'Cervical Fixation — Anterior & Posterior Systems' },
+      { icon: 'inventory_2', label: 'CF Posterior Fixator — 7 Screw Series Available' },
+      { icon: 'bolt', label: 'Fenestrated Screws for Cement Augmentation' },
+      { icon: 'hd', label: 'PEEK & 3D-Printed Titanium Interbody Cages' },
     ],
-    useCases: ['Lumbar Discectomy (PELD)', 'Spinal Stenosis Decompression', 'UBE Procedures', 'Cervical Endoscopy', 'Annuloplasty', 'Facet Denervation'],
-    hsnCode: '901814',
+    useCases: ['ACDF (Anterior Cervical Discectomy & Fusion)', 'Posterior Cervical Fixation', 'Thoracolumbar Fusion', 'MIS-TLIF & PLIF Procedures', 'Sacroiliac Joint Fixation', 'Osteoporotic Fracture Augmentation'],
+    hsnCode: '9018',
   },
 };
 
 const fallbackProducts = {
   'surgical-tools': [
-    { _id: 's1', slug: 'titanium-forceps-set', name: 'Titanium Forceps Set', subtitle: 'Ultra-Lightweight Grade 5', category: 'surgical-tools', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBcz6Zza1kV_1xkHX27N4w0-ADI690N9CXe2lMOF7wLNpdy7lr6Nn0BTP8xKJ9U_JXT15KJzMLL9IJZjan9tKOXMP4mzb49mQ_nPt65AXXoOdzQAV4QSK3mi0zTM243Hwf3yiqiQLxMSbAOYfB0_xLw8PyWSSIAj_UThIeC7UqhxR6rBJ6NXwB3b3E4wFE1WRojGDUQxxdMVw4vcgsNLEQkCJMBXOxxmrYUgMys155CCQnKWxL2B073tc0dOnl4WdDFB5U5pKkMX_4' },
-    { _id: 's2', slug: 'surgical-scalpel-kit', name: 'Surgical Scalpel Kit', subtitle: 'Carbon Steel Precision Blades', category: 'surgical-tools', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCzDmOciNw-T_lq5ei30TBkZJYef9lJoSCYSD4Qs0m-qBcftzXBYugIzy4gsR6p_Uofapn657hUPqEydftt7On9S9-fYGMud1RD9RmZtfDvGo3JefTZXoPS4XsgfOO5QglDJPQVVmiK0vNGvVtwBB9kyRxMGf_1VI8611VphYtNApa3YchPu--Y7jewQSKQSm9LGBrJr9QepvlZwViVHJDGZrS5GHubgChH9bBbxpkMNxthetEoHRE_kKxZZTBbD-XeIiRUTbZBkl0' },
-    { _id: 's3', slug: 'electrosurgical-generator', name: 'Electrosurgical Generator', subtitle: 'Advanced Bipolar/Monopolar ESU', category: 'surgical-tools', price: 'POA', inStock: false, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBhL9JEg8RNSg-uSLPMNeIOePxJpuNtp9FEMr6G1U4u2P8fKI1O40vgmKILqjNkAq2_SmA3hH5s3u1mDNd99crWD0VGeXBRFob7Wi9S18YIf5H5vYYl1Mqsr_GAlsHZ-2Gu_6UVtUgZpDyPR-307x8N4auvGptjWoV5FUmbXCqUeJ71hJfWVStnU3zuvJAzy6Vn-pnYUfhIxqoWOz-VWkap1Mu_AtSP6iV-3UdhnXxt0u3N2i70TbmCPcTnI_BRgwdRlRSWrstb5y0' },
+    { _id: 's5', slug: 'zimmer-nexgen-knee-instrument-set', name: 'Zimmer NexGen Knee Instrument Set', subtitle: 'Total Knee Arthroplasty Instrumentation', category: 'surgical-tools', price: 'POA', inStock: true, image: '/products/zimmer-nexgen-knee-instrument-set.jpg' },
+    { _id: 'st1', slug: 'bp-handle-no-7', name: 'BP Handle No. 7', subtitle: 'Surgical Scalpel Handle - 160mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st2', slug: 'artery-forceps-curved-cairns', name: 'Artery Forceps Curved Cairns', subtitle: 'Curved Cairns Artery Forceps - 145mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st3', slug: 'artery-forceps-straight-cairns', name: 'Artery Forceps Straight Cairns', subtitle: 'Straight Cairns Artery Forceps - 145mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st4', slug: 'halstead-mosquito-artery-forceps-curved', name: 'Halstead Mosquito Artery Forceps Curved', subtitle: 'Fine Tip Curved Mosquito Forceps - 125mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st5', slug: 'halstead-mosquito-artery-forceps-straight', name: 'Halstead Mosquito Artery Forceps Straight', subtitle: 'Fine Tip Straight Mosquito Forceps - 125mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st6', slug: 'dissecting-forceps-toothed', name: 'Dissecting Forceps Toothed', subtitle: '1x2 Teeth Dissecting Forceps - 145mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st7', slug: 'debakey-vascular-forceps-atrogrip', name: 'DeBakey Vascular Forceps Atrogrip', subtitle: 'Atraumatic Vascular Forceps - Multi-Length', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st8', slug: 'scissor-metzenbaum-curved-fine', name: 'Scissor Metzenbaum Curved Fine', subtitle: 'Round Point Curved Metzenbaum Scissors', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st9', slug: 'forceps-russian', name: 'Forceps Russian', subtitle: 'Russian Pattern Tissue Forceps - 150mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st10', slug: 'needle-holder-heavy', name: 'Needle Holder Heavy', subtitle: 'Heavy-Duty Needle Holder - Multi-Length', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st11', slug: 'needle-holder-fine', name: 'Needle Holder Fine', subtitle: 'Lightweight Fine Needle Holder - Multi-Length', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st12', slug: 'mixter-forceps-fine-medium-long', name: 'Mixter Forceps Fine Medium, Long', subtitle: 'Right-Angled Mixter Forceps - Multi-Length', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st13', slug: 'sydney-scott-forceps', name: 'Sydney Scott Forceps', subtitle: 'Sydney Scott Surgical Forceps - 185mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st14', slug: 'langenback-retractor', name: 'Langenback Retractor', subtitle: 'Langenbeck Retractor - 230mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st15', slug: 'satinskey-vascular-clamp', name: 'Satinskey Vascular Clamp', subtitle: 'Satinsky Vascular Clamp - Multi-Length', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st16', slug: 'cooley-s-vascular-clamp', name: "Cooley's Vascular Clamp", subtitle: "Cooley Vascular Clamp - Multi-Length", category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st17', slug: 'crawford-s-go-around-forceps', name: "Crawford's Go-Around Forceps", subtitle: 'Crawford Go-Around Forceps - Multi-Length', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st18', slug: 'aortic-cross-clamp', name: 'Aortic Cross Clamp', subtitle: 'Cardiothoracic Aortic Cross Clamp - 240mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st19', slug: 'clip-applicator', name: 'Clip Applicator (Small, Medium, Large)', subtitle: 'Surgical Clip Applier - 200mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st20', slug: 'sternal-retractor-single-blade', name: 'Sternal Retractor Single Blade', subtitle: 'Single Blade Sternal Retractor', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st21', slug: 'sternal-retractor-double-blade', name: 'Sternal Retractor Double Blade', subtitle: 'Double Blade Sternal Retractor', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st22', slug: 'rubios-wire-holding-forceps', name: 'Rubios Wire Holding Forceps', subtitle: 'Rubios Wire Holding Forceps - 200mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st23', slug: 'wire-twister-holder', name: 'Wire Twister / Holder', subtitle: 'Wire Twister & Holder - 150mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st24', slug: 'wire-cutter', name: 'Wire Cutter', subtitle: 'Surgical Wire Cutter - 235mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 'st25', slug: 'rochester-onhnser-forceps', name: 'Rochester Onhnser Forceps', subtitle: 'Rochester Onhnser Forceps - 185mm', category: 'surgical-tools', price: 'POA', inStock: true, image: '' },
+    { _id: 's6', slug: 'marlon-aqua-mat-irrigation-pump', name: 'Marlon Aqua-Mat Endoscopic Irrigation Pump', subtitle: 'Precision Pressure & Flow Fluid Management', category: 'surgical-tools', price: 'POA', inStock: true, image: '/products/marlon-aqua-mat-irrigation-pump.png' },
+    { _id: 's7', slug: 'marlon-endoscopic-shaver-system', name: 'Marlon Endoscopic Shaver System', subtitle: 'High-Speed Resection & Debridement Console', category: 'surgical-tools', price: 'POA', inStock: true, image: '/products/marlon-endoscopic-shaver-system.jpg' },
+    { _id: 's8', slug: 'marlon-endoscopic-shaver-handpiece', name: 'Marlon Endoscopic Shaver Handpiece', subtitle: 'Ergonomic High-Speed Shaver Handpiece', category: 'surgical-tools', price: 'POA', inStock: true, image: '/products/marlon-endoscopic-shaver-handpiece.jpg' },
+    { _id: 's9', slug: 'marlon-rf-generator', name: 'Marlon Radiofrequency (RF) Generator', subtitle: 'High-Frequency Electrosurgical Console', category: 'surgical-tools', price: 'POA', inStock: true, image: '/products/marlon-rf-generator.jpg' }
   ],
   'imaging-systems': [
-    { _id: 'i1', slug: 'hd-endoscopy-unit', name: 'HD Endoscopy Unit', subtitle: 'Precision 4K Visualization', category: 'imaging-systems', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAK9ZMPKWDLAIwRlqlD4pZ-LlBD3kVzi1Qb8NR2QRk7Yk9S5WodKDHJAGxWXFrjcpX95sGoxg1_6f_OempfxYioPo5LjPei8P6gYANZ2SivYW1E0f2Z8N8b68USgg_bR8PyhUailHrIiOi9tRdsBZknawYPBr684hTQmLSlLNpXOIm39FDVLRzZ4ZjsZtxAOLLSsohHUlpakCjMGpm_SHz0O4T_3o183sypDd0uZBRzrBRxZd9GPtvM6ptE6wZVMfpuqMCBvGzTa7s' },
-    { _id: 'i2', slug: 'laparoscopic-camera-system', name: 'Laparoscopic Camera System', subtitle: 'Full HD 1080p Surgical Vision', category: 'imaging-systems', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBhL9JEg8RNSg-uSLPMNeIOePxJpuNtp9FEMr6G1U4u2P8fKI1O40vgmKILqjNkAq2_SmA3hH5s3u1mDNd99crWD0VGeXBRFob7Wi9S18YIf5H5vYYl1Mqsr_GAlsHZ-2Gu_6UVtUgZpDyPR-307x8N4auvGptjWoV5FUmbXCqUeJ71hJfWVStnU3zuvJAzy6Vn-pnYUfhIxqoWOz-VWkap1Mu_AtSP6iV-3UdhnXxt0u3N2i70TbmCPcTnI_BRgwdRlRSWrstb5y0' },
+    { _id: 'i1', slug: 'hd-endoscopy-unit', name: 'HD Endoscopy Unit', subtitle: 'Precision 4K Visualization', category: 'imaging-systems', price: 'POA', inStock: true, image: '/products/hd-endoscopy-unit.png' },
+    { _id: 'i2', slug: 'laparoscopic-camera-system', name: 'Laparoscopic Camera System', subtitle: 'Full HD 1080p Surgical Vision', category: 'imaging-systems', price: 'POA', inStock: true, image: '/products/laparoscopic-camera-system.jpg' },
+    { _id: 'i3', slug: 'led-light-source', name: 'Endoscopy LED Light Source', subtitle: 'High-Intensity LED Cold Light', category: 'imaging-systems', price: 'POA', inStock: true, image: '/products/led-light-source.jpg' },
+    { _id: 'i4', slug: 'marlon-hd-camera-system', name: 'Marlon HD Camera System', subtitle: 'Full HD Endoscopic Camera Console', category: 'imaging-systems', price: 'POA', inStock: true, image: '/products/marlon-hd-camera-system.jpg' },
+    { _id: 'i5', slug: 'marlon-cold-light-source-oem', name: 'Marlon Cold Light Source (OEM Package)', subtitle: 'White Light Cold Source OEM System', category: 'imaging-systems', price: 'POA', inStock: true, image: '/products/marlon-cold-light-source-specs.jpg' },
   ],
-  diagnostics: [
-    { _id: 'd1', slug: 'pulse-oximeter-pro', name: 'Pulse Oximeter Pro', subtitle: 'Clinical-Grade SpO2 Monitoring', category: 'diagnostics', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBKY8m_2TN6EfCD1fief0R5ABF7yoHZWzp6nNgv0G_yy10naGiobzRWH2SG2J3atVu3vTHgUuau-KP-j9HPNSL3G9vo5TYIcVCjgP4sqWE0lWkWmCuG0D462TM83f16oxaUD9I1mkDEYeTNGJXBXLvpyS04WF8nJWv8wVFyuxRmLJdkkYwiO6o5fr2j7Z65f5P_sEAo04EvB3XJIBkVSLPK9oVPjcrxJKIX5sRi15-UczFp8zU8fV1D2BQA-iUQySyEzLAPtDXJSUs' },
-  ],
-  monitoring: [
-    { _id: 'm1', slug: 'cardiac-monitor-s7', name: 'Cardiac Monitor S7', subtitle: 'Multi-Parameter Tracking', category: 'monitoring', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBaFZ1pnQw5Pxe483aIjiCFcCBceh3k0VjX7QlLJsuvWLAQFRvx6i7V3diFM7ca1qCEAIdir-ffzzdVPnHPhlGkH5B6ovu5TWjSQcj2jI_OTDapf2a2XW97NFRizRqN58Mt1JdTYtj3tdtqiGpqzwV7CRDYo32BObd8RDT8sjS3iQC1wgeViXZcvxQ_RugmkyS2OqwKZRgEy2g-_Mlmoh4O0gExgeTUWnxavaRna_Zb5uhh1Ww47MXWT5lnodbwwp39n4MxaBXNOPI' },
-  ],
-  sterilization: [
-    { _id: 'st1', slug: 'digital-autoclave', name: 'Digital Autoclave', subtitle: 'Class B Vacuum Cycle', category: 'sterilization', price: 'POA', inStock: true, image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC63WRyBtDtGNZA-Tpi7W_iJLHsNKRgh-_aWwtpOGuF3krieJdpk-7VGuzXVB2V_9Rq96XlqU224Z4j2dcnjSz2whuEBeDqXR7J3yA-GMmwwwJMAnlJljuIXEMbvhR_DhQc9f93XXw6jsvfgiD3EK0a8_jYd_jOsSNS-gonZME5YwV9z6PTZbW6k7n5Gfkk7RciwOs_BQwxzSh0pXUcjj1mHQkX_7rO6hA5hxTgYtZ4gObqHEF-6uGy5X7BDnsqLK5qd2Imgp2Ifik' },
+  'spine-surgery': [
+    { _id: '1', slug: 'anterior-cervical-fixation-system-iiia-bone-plate', name: 'Anterior Cervical Fixation System (IIIA Bone Plate)', subtitle: 'Anterior Cervical Plate System for ACDF Procedures', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/anterior-cervical-fixation-system-iiia.png' },
+    { _id: '2', slug: 'posterior-cervical-fixation-system-zj-plate-series', name: 'Posterior Cervical Fixation System (ZJ Plate Series)', subtitle: 'Posterior Cervical Plate & Screw Fixation System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/posterior-cervical-fixation-system-zj.png' },
+    { _id: '3', slug: 'cf-posterior-spinal-internal-fixator-u6-u7-series', name: 'CF Posterior Spinal Internal Fixator (U6 / U7 Series)', subtitle: 'Posterior Pedicle Screw Fixation System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cf-posterior-fixator-u6-u7.png' },
+    { _id: '4', slug: 'cf-posterior-spinal-internal-fixator-u15-u16-u18-series', name: 'CF Posterior Spinal Internal Fixator (U15 / U16 / U18 Series)', subtitle: 'Advanced Pedicle Screw Fixation System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cf-posterior-fixator-u15-u16-u18.png' },
+    { _id: '5', slug: 'cf-posterior-spinal-internal-fixator-u8-u9-series', name: 'CF Posterior Spinal Internal Fixator (U8 / U9 Series)', subtitle: 'Minimally Invasive Pedicle Screw System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cf-posterior-fixator-u8-u9.png' },
+    { _id: '6', slug: 'cf-posterior-spinal-internal-fixator-u3-u4-series', name: 'CF Posterior Spinal Internal Fixator (U3 / U4 Series)', subtitle: 'Standard Pedicle Screw Fixation System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cf-posterior-fixator-u3-u4.png' },
+    { _id: '7', slug: 'cs-anterior-cf-posterior-fixator-u-screw-10-11-17-19-series', name: 'CS Anterior / CF Posterior Fixator (U Screw 10, 11, 17, 19 Series)', subtitle: 'Combined Anterior & Posterior Fixation System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cs-anterior-cf-fixator-u10-11-17-19.png' },
+    { _id: '8', slug: 'cf-posterior-spinal-internal-fixator-u-screw-21-series-sacroiliac-iliac', name: 'CF Posterior Spinal Internal Fixator (U Screw 21 Series - Sacroiliac & Iliac)', subtitle: 'Sacroiliac & Iliac Fixation Screw System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cf-posterior-fixator-u21-sacroiliac.png' },
+    { _id: '9', slug: 'cf-posterior-spinal-internal-fixator-u-screw-14-series-fenestrated-bone-cement', name: 'CF Posterior Spinal Internal Fixator (U Screw 14 Series - Fenestrated Bone Cement)', subtitle: 'Fenestrated Pedicle Screw for Cement Augmentation', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cf-posterior-fixator-u14-fenestrated.png' },
+    { _id: '10', slug: 'rz-iic-peek-3d-printing-lumbar-cage', name: 'RZ-IIC PEEK and 3D Printing Lumbar Cage', subtitle: 'PEEK & 3D Printed Titanium Lumbar Interbody Cage', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/rz-iic-peek-3d-lumbar-cage.png' },
+    { _id: '11', slug: 'rz-iiia-lumbar-cage-mis-tlif', name: 'RZ-IIIA Lumbar Cage (MIS-TLIF)', subtitle: 'MIS-TLIF Lumbar Interbody Fusion Cage', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/rz-iiia-lumbar-cage-mis-tlif.png' },
+    { _id: '12', slug: 'rz-iib-lumbar-cage', name: 'RZ-IIB Lumbar Cage', subtitle: 'Open PLIF Lumbar Interbody Fusion Cage', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/rz-iib-lumbar-cage.png' },
+    { _id: '13', slug: 'cervical-ib-fusion-cage', name: 'Cervical IB Fusion Cage', subtitle: 'Anterior Cervical Interbody Fusion Cage', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cervical-ib-fusion-cage.png' },
+    { _id: '14', slug: 'cs-anterior-spinal-internal-fixator-csb1-csb2-bone-plate-series', name: 'CS Anterior Spinal Internal Fixator (CSB1 / CSB2 Bone Plate Series)', subtitle: 'Anterior Thoracolumbar Bone Plate System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cs-anterior-csb1-csb2.jpg' },
+    { _id: '15', slug: 'cl-mis-cervical-fusion-cage-ivn-series', name: 'CL MIS Cervical Fusion Cage (IVN Series)', subtitle: '3D-Printed Porous Cervical Fusion Implant', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cl-mis-cervical-ivn.jpg' },
+    { _id: '16', slug: 'cl-shaped-thoracolumbar-fusion-apparatus-ivo-series', name: 'CL Shaped Thoracolumbar Fusion Apparatus (IVO Series)', subtitle: '3D-Printed Bulleted Lumbar Fusion Cage', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cl-shaped-thoracolumbar-ivo.jpg' },
+    { _id: '17', slug: 'cl-large-fusion-cage-ivd-series', name: 'CL Large Fusion Cage (IVD Series)', subtitle: '3D-Printed ALIF / LLIF / OLIF Fusion System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/cl-large-fusion-ivd.jpg' },
+    { _id: '18', slug: 'adjustable-artificial-vertebral-body-fixation-system', name: 'Adjustable Artificial Vertebral Body Fixation System', subtitle: 'Expandable Corpectomy Prosthesis System', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/adjustable-vertebral-body.jpg' },
+    { _id: '19', slug: '3d-porous-vertebral-prosthesis-model-ia-cervical-model-ib-lumbar', name: '3D Porous Vertebral Prosthesis (Model I-A Cervical & Model I-B Lumbar)', subtitle: '3D-Printed Corpectomy Vertebral Replacement', category: 'spine-surgery', price: 'POA', inStock: true, image: '/products/3d-porous-vertebral-prosthesis.jpg' },
   ],
 };
 
@@ -186,7 +181,7 @@ export default function CategoryPage() {
       {/* Overview */}
       <section className="section" style={{ padding: '5rem 0' }} id={`cat-overview-${category}`}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', alignItems: 'center' }}>
+          <div className="grid-2col" style={{ gap: '3rem', alignItems: 'center' }}>
             <div className="animate-in">
               <div className="label-sm" style={{ color: 'var(--primary-fixed-dim)', marginBottom: '0.75rem' }}>Category Overview</div>
               <h2 className="headline-lg" style={{ marginBottom: '1.25rem' }}>{meta.label}</h2>
@@ -205,7 +200,7 @@ export default function CategoryPage() {
               </div>
             </div>
 
-            <div className="animate-in animate-delay-1" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+            <div className="animate-in animate-delay-1 grid-2col" style={{ gap: '1rem' }}>
               {meta.highlights.map((h, i) => (
                 <div key={i} className="glass-panel" style={{ padding: '1.25rem', borderRadius: 'var(--radius-lg)' }}>
                   <span className="material-symbols-outlined" style={{ fontSize: '1.5rem', color: meta.accentColor, display: 'block', marginBottom: '0.5rem' }}>{h.icon}</span>

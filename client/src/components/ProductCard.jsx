@@ -1,58 +1,49 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useCart } from '../context/CartContext';
 
 export default function ProductCard({ product }) {
-  const { addToCart, items } = useCart();
-  const [added, setAdded] = useState(false);
-  const inCart = items.some((i) => i.slug === product.slug);
-
-  const handleAddToCart = (e) => {
-    e.preventDefault();
-    addToCart(product);
-    setAdded(true);
-    setTimeout(() => setAdded(false), 1800);
-  };
 
   return (
     <div className="product-card card" id={`product-card-${product.slug || product._id}`}>
-      <div className="card__image-wrap">
-        <img src={product.image} alt={product.name} loading="lazy" />
-        {product.inStock && <div className="card__badge">In Stock</div>}
-      </div>
-      <div className="card__body">
-        <h4 style={{ fontWeight: 700, fontSize: '1.0625rem', marginBottom: '0.25rem' }}>
-          {product.name}
-        </h4>
-        <div className="body-sm" style={{ color: 'var(--on-surface-variant)', marginBottom: '1rem' }}>
-          {product.subtitle}
+      <Link to={`/products/${product.slug}`} className="product-card__image-link" style={{ display: 'block' }}>
+        <div className="card__image-wrap">
+          {product.image ? (
+            <img src={product.image} alt={product.name} loading="lazy" />
+          ) : (
+            <div className="card__image-placeholder" style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              height: '100%',
+              background: 'var(--surface-container-high)',
+              color: 'var(--on-surface-variant)',
+              minHeight: '200px'
+            }}>
+              <span className="material-symbols-outlined" style={{ fontSize: '3rem', opacity: 0.5 }}>medical_services</span>
+            </div>
+          )}
+          {product.inStock && <div className="card__badge">In Stock</div>}
         </div>
+      </Link>
+      <div className="card__body">
+        <Link to={`/products/${product.slug}`} className="product-card__title-link" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
+          <h4 style={{ fontWeight: 700, fontSize: '1.0625rem', marginBottom: '0.25rem', transition: 'color var(--transition-fast)' }} className="product-card__title">
+            {product.name}
+          </h4>
+          <div className="body-sm" style={{ color: 'var(--on-surface-variant)', marginBottom: '1rem' }}>
+            {product.subtitle}
+          </div>
+        </Link>
         <div className="card__footer">
           <div className="product-card__price">{product.price || 'POA'}</div>
-          <div style={{ display: 'flex', gap: '0.5rem' }}>
-            {/* Add to quote basket */}
-            <button
-              onClick={handleAddToCart}
-              className={`product-card__inquiry ${inCart || added ? 'btn--primary' : ''}`}
-              title={inCart ? 'In quote basket' : 'Add to quote basket'}
-              id={`cart-btn-${product.slug || product._id}`}
-              style={{ borderRadius: 'var(--radius-md)', padding: '0.4rem 0.625rem' }}
-            >
-              <span className="material-symbols-outlined" style={{ fontSize: '0.875rem' }}>
-                {added ? 'check' : inCart ? 'shopping_cart' : 'add_shopping_cart'}
-              </span>
-              {added ? 'Added' : inCart ? 'In Cart' : 'Add'}
-            </button>
-            {/* View details */}
-            <Link
-              to={`/products/${product.slug}`}
-              className="product-card__inquiry"
-              id={`inquiry-btn-${product.slug || product._id}`}
-              style={{ borderRadius: 'var(--radius-md)', padding: '0.4rem 0.625rem' }}
-            >
-              <span className="material-symbols-outlined" style={{ fontSize: '0.875rem' }}>open_in_new</span>
-            </Link>
-          </div>
+          <Link
+            to={`/products/${product.slug}`}
+            className="btn btn--secondary"
+            id={`inquiry-btn-${product.slug || product._id}`}
+            style={{ borderRadius: 'var(--radius-md)', padding: '0.4rem 1rem', display: 'flex', alignItems: 'center', gap: '0.375rem', fontSize: '0.875rem' }}
+          >
+            <span>View Details</span>
+            <span className="material-symbols-outlined" style={{ fontSize: '0.875rem' }}>arrow_forward</span>
+          </Link>
         </div>
       </div>
     </div>

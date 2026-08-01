@@ -4,12 +4,9 @@ import Toast, { useToast } from '../components/Toast';
 import { submitInquiry } from '../services/api';
 
 const productCategories = [
+  'Spine Surgery',
   'Surgical Tools',
   'Imaging Systems',
-  'Diagnostics Equipment',
-  'Patient Monitoring',
-  'Sterilization Systems',
-  'Endoscopy Instruments',
   'Other / Multiple Categories',
 ];
 
@@ -156,7 +153,7 @@ export default function QuotePage() {
       {/* Main Content */}
       <section className="section" style={{ padding: '5rem 0' }} id="quote-content">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 2fr) minmax(0, 1fr)', gap: '3rem', alignItems: 'start' }}>
+          <div className="sidebar-layout" style={{ gap: '3rem' }}>
 
             {/* Form Card */}
             <div>
@@ -197,11 +194,11 @@ export default function QuotePage() {
                       <p className="body-sm" style={{ color: 'var(--on-surface-variant)' }}>We'll use this to send your quote and follow up.</p>
                     </div>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                    <div className="grid-2col" style={{ gap: '1rem' }}>
                       <input type="text" className="input" placeholder="Full Name *" value={formData.name} onChange={update('name')} required id="quote-name" />
                       <input type="email" className="input" placeholder="Email Address *" value={formData.email} onChange={update('email')} required id="quote-email" />
                     </div>
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                    <div className="grid-2col" style={{ gap: '1rem' }}>
                       <input type="text" className="input" placeholder="Organization / Hospital *" value={formData.organization} onChange={update('organization')} required id="quote-org" />
                       <input type="tel" className="input" placeholder="Phone Number" value={formData.phone} onChange={update('phone')} id="quote-phone" />
                     </div>
@@ -238,7 +235,7 @@ export default function QuotePage() {
 
                     <input type="text" className="input" placeholder="Specific Product / Device Name (optional)" value={formData.productName} onChange={update('productName')} id="quote-product" />
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                    <div className="grid-2col" style={{ gap: '1rem' }}>
                       <input type="number" className="input" placeholder="Quantity Required *" min="1" value={formData.quantity} onChange={update('quantity')} required id="quote-quantity" />
                       <div>
                         <select className="input" value={formData.deliveryTimeline} onChange={update('deliveryTimeline')} required id="quote-timeline" style={{ appearance: 'auto' }}>
@@ -259,7 +256,7 @@ export default function QuotePage() {
                       style={{ minHeight: '120px' }}
                     />
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                    <div className="grid-2col" style={{ gap: '1rem' }}>
                       <button type="button" className="btn btn--lg glass-panel" onClick={() => setStep(1)}>
                         <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>arrow_back</span>
                         Back
@@ -283,7 +280,7 @@ export default function QuotePage() {
                     <div className="glass-panel" style={{ padding: '2rem', borderRadius: 'var(--radius-xl)' }}>
                       <h2 className="headline-md" style={{ marginBottom: '1.5rem' }}>Review Your Quote Request</h2>
 
-                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1.5rem' }}>
+                      <div className="grid-2col" style={{ gap: '1rem', marginBottom: '1.5rem' }}>
                         {[
                           { label: 'Name', value: formData.name, icon: 'person' },
                           { label: 'Email', value: formData.email, icon: 'mail' },
@@ -312,7 +309,7 @@ export default function QuotePage() {
                       )}
                     </div>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                    <div className="grid-2col" style={{ gap: '1rem' }}>
                       <button type="button" className="btn btn--lg glass-panel" onClick={() => setStep(2)}>
                         <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>edit</span>
                         Edit Details

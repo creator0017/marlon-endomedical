@@ -7,24 +7,24 @@ import { getProducts, subscribeNewsletter } from '../services/api';
 // Fallback product data when API is unavailable
 const fallbackProducts = [
   {
-    _id: '1', slug: 'hd-endoscopy-unit', name: 'HD Endoscopy Unit', subtitle: 'Precision 4K Visualization',
-    category: 'imaging-systems', price: 'POA', inStock: true, featured: true,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAK9ZMPKWDLAIwRlqlD4pZ-LlBD3kVzi1Qb8NR2QRk7Yk9S5WodKDHJAGxWXFrjcpX95sGoxg1_6f_OempfxYioPo5LjPei8P6gYANZ2SivYW1E0f2Z8N8b68USgg_bR8PyhUailHrIiOi9tRdsBZknawYPBr684hTQmLSlLNpXOIm39FDVLRzZ4ZjsZtxAOLLSsohHUlpakCjMGpm_SHz0O4T_3o183sypDd0uZBRzrBRxZd9GPtvM6ptE6wZVMfpuqMCBvGzTa7s'
+    _id: '1', slug: 'anterior-cervical-fixation-system-iiia-bone-plate', name: 'Anterior Cervical Fixation System (IIIA Bone Plate)', subtitle: 'Anterior Cervical Plate System for ACDF Procedures',
+    category: 'spine-surgery', price: 'POA', inStock: true, featured: true,
+    image: '/products/anterior-cervical-fixation-system-iiia.png'
   },
   {
-    _id: '2', slug: 'titanium-forceps-set', name: 'Titanium Forceps Set', subtitle: 'Ultra-Lightweight Grade 5',
-    category: 'surgical-tools', price: 'POA', inStock: true, featured: true,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBcz6Zza1kV_1xkHX27N4w0-ADI690N9CXe2lMOF7wLNpdy7lr6Nn0BTP8xKJ9U_JXT15KJzMLL9IJZjan9tKOXMP4mzb49mQ_nPt65AXXoOdzQAV4QSK3mi0zTM243Hwf3yiqiQLxMSbAOYfB0_xLw8PyWSSIAj_UThIeC7UqhxR6rBJ6NXwB3b3E4wFE1WRojGDUQxxdMVw4vcgsNLEQkCJMBXOxxmrYUgMys155CCQnKWxL2B073tc0dOnl4WdDFB5U5pKkMX_4'
+    _id: '2', slug: 'posterior-cervical-fixation-system-zj-plate-series', name: 'Posterior Cervical Fixation System (ZJ Plate Series)', subtitle: 'Posterior Cervical Plate & Screw Fixation System',
+    category: 'spine-surgery', price: 'POA', inStock: true, featured: true,
+    image: '/products/posterior-cervical-fixation-system-zj.png'
   },
   {
-    _id: '3', slug: 'digital-autoclave', name: 'Digital Autoclave', subtitle: 'Class B Vacuum Cycle',
-    category: 'sterilization', price: 'POA', inStock: true, featured: false,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC63WRyBtDtGNZA-Tpi7W_iJLHsNKRgh-_aWwtpOGuF3krieJdpk-7VGuzXVB2V_9Rq96XlqU224Z4j2dcnjSz2whuEBeDqXR7J3yA-GMmwwwJMAnlJljuIXEMbvhR_DhQc9f93XXw6jsvfgiD3EK0a8_jYd_jOsSNS-gonZME5YwV9z6PTZbW6k7n5Gfkk7RciwOs_BQwxzSh0pXUcjj1mHQkX_7rO6hA5hxTgYtZ4gObqHEF-6uGy5X7BDnsqLK5qd2Imgp2Ifik'
+    _id: '3', slug: 'cf-posterior-spinal-internal-fixator-u6-u7-series', name: 'CF Posterior Spinal Internal Fixator (U6 / U7 Series)', subtitle: 'Posterior Pedicle Screw Fixation System',
+    category: 'spine-surgery', price: 'POA', inStock: true, featured: true,
+    image: '/products/cf-posterior-fixator-u6-u7.png'
   },
   {
-    _id: '4', slug: 'cardiac-monitor-s7', name: 'Cardiac Monitor S7', subtitle: 'Multi-Parameter Tracking',
-    category: 'monitoring', price: 'POA', inStock: true, featured: true,
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBaFZ1pnQw5Pxe483aIjiCFcCBceh3k0VjX7QlLJsuvWLAQFRvx6i7V3diFM7ca1qCEAIdir-ffzzdVPnHPhlGkH5B6ovu5TWjSQcj2jI_OTDapf2a2XW97NFRizRqN58Mt1JdTYtj3tdtqiGpqzwV7CRDYo32BObd8RDT8sjS3iQC1wgeViXZcvxQ_RugmkyS2OqwKZRgEy2g-_Mlmoh4O0gExgeTUWnxavaRna_Zb5uhh1Ww47MXWT5lnodbwwp39n4MxaBXNOPI'
+    _id: '4', slug: 'rz-iic-peek-3d-printing-lumbar-cage', name: 'RZ-IIC PEEK and 3D Printing Lumbar Cage', subtitle: 'PEEK & 3D Printed Titanium Lumbar Interbody Cage',
+    category: 'spine-surgery', price: 'POA', inStock: true, featured: true,
+    image: '/products/rz-iic-peek-3d-lumbar-cage.png'
   }
 ];
 
@@ -186,27 +186,7 @@ export default function HomePage() {
               <div className="bento-stat__label">Years Excellence</div>
             </div>
 
-            {/* HSN 9018 — Surgical Instruments */}
-            <div className="bento-card bento-card--span2 bento-card--horizontal glass-panel animate-in animate-delay-3">
-              <div className="bento-card__img-wrap">
-                <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzDmOciNw-T_lq5ei30TBkZJYef9lJoSCYSD4Qs0m-qBcftzXBYugIzy4gsR6p_Uofapn657hUPqEydftt7On9S9-fYGMud1RD9RmZtfDvGo3JefTZXoPS4XsgfOO5QglDJPQVVmiK0vNGvVtwBB9kyRxMGf_1VI8611VphYtNApa3YchPu--Y7jewQSKQSm9LGBrJr9QepvlZwViVHJDGZrS5GHubgChH9bBbxpkMNxthetEoHRE_kKxZZTBbD-XeIiRUTbZBkl0"
-                  alt="Medical instrument detail"
-                  loading="lazy"
-                />
-              </div>
-              <div className="bento-card__content">
-                <div className="bento-card__label">Category HSN 9018</div>
-                <h3 className="headline-md" style={{ marginBottom: '1rem' }}>Surgical Instruments</h3>
-                <p className="body-sm" style={{ color: 'var(--on-surface-variant)' }}>
-                  Global standard instrumentation for general surgery, dental, and ophthalmic procedures.
-                </p>
-                <Link to="/products?category=surgical-tools" className="bento-card__link">
-                  Download Specs <span className="material-symbols-outlined">arrow_forward</span>
-                </Link>
-              </div>
             </div>
-          </div>
         </div>
       </section>
 

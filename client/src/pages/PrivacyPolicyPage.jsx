@@ -200,7 +200,7 @@ export default function PrivacyPolicyPage() {
       {/* Content */}
       <section className="section" style={{ padding: '5rem 0' }} id="privacy-content">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '240px minmax(0, 1fr)', gap: '3.5rem', alignItems: 'start' }}>
+          <div className="faq-layout" style={{ gap: '3.5rem', alignItems: 'start' }}>
 
             {/* Sticky Table of Contents */}
             <div className="glass-panel animate-in" style={{ padding: '1.5rem', borderRadius: 'var(--radius-xl)', position: 'sticky', top: '6rem' }}>

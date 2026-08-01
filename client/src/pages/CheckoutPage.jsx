@@ -50,12 +50,12 @@ export default function CheckoutPage() {
       <div className="container" style={{ maxWidth: '1000px' }}>
         <h1 className="display-sm" style={{ marginBottom: '2rem' }}>Checkout & Finalize Order</h1>
         
-        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) 350px', gap: '2rem' }}>
+        <div className="sidebar-layout" style={{ gap: '2rem' }}>
           {/* Form Side */}
           <div className="glass-panel animate-in" style={{ padding: '2rem', borderRadius: 'var(--radius-xl)' }}>
             <h2 className="headline-sm" style={{ marginBottom: '1.5rem', borderBottom: '1px solid var(--outline-variant)', paddingBottom: '0.75rem' }}>Billing & Shipping</h2>
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <div style={{ display: 'flex', gap: '1rem' }}>
+              <div className="grid-2col" style={{ gap: '1rem' }}>
                 <div style={{ flex: 1 }}>
                   <label className="label-sm" style={{ marginBottom: '0.5rem', display: 'block' }}>Hospital / Clinic Name *</label>
                   <input required name="hospitalName" className="input input--glass" value={formData.hospitalName} onChange={handleChange} />
@@ -66,7 +66,7 @@ export default function CheckoutPage() {
                 </div>
               </div>
               
-              <div style={{ display: 'flex', gap: '1rem' }}>
+              <div className="grid-2col" style={{ gap: '1rem' }}>
                 <div style={{ flex: 1 }}>
                   <label className="label-sm" style={{ marginBottom: '0.5rem', display: 'block' }}>Email Address *</label>
                   <input required type="email" name="email" className="input input--glass" value={formData.email} onChange={handleChange} />

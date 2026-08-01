@@ -35,7 +35,7 @@ const productSchema = new mongoose.Schema({
   features: [String],
   image: {
     type: String,
-    required: true
+    required: false
   },
   inStock: {
     type: Boolean,
