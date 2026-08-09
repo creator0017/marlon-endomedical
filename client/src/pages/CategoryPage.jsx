@@ -195,6 +195,9 @@ const fallbackProducts = {
     { _id: 'j18', slug: 'xm-knee-with-tin-coating-t-free', name: 'XM Knee with TiN Coating (T-Free)', subtitle: 'TiNbN PVD-coated CoCrMo total knee - reduced metal-ion release & high wear resistance', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/xm-knee-tin-main.png' },
     { _id: 'j19', slug: 't-free-xm-knee-system-ps-cr', name: 'T-Free XM Knee System (PS / CR)', subtitle: 'Primary total knee with PS & CR variants - anatomical fit, tri-fin tibial plateau', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/xm-knee-system-main.png' },
     { _id: 'j20', slug: 'g20-trabecular-structured-cup', name: 'G20 Trabecular Structured Cup', subtitle: '3D-printed trabecular metal acetabular cup with highly cross-linked UHMWPE liner', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/g20-trabecular-cup-main.png' },
+    { _id: 'j21', slug: 'osteopathia-shoulder-prosthesis', name: 'Osteopathia Shoulder Prosthesis', subtitle: 'Anatomical humeral stem & head with biological fixation - biomechanical design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/shoulder-osteopathia-main.png' },
+    { _id: 'j22', slug: 'reverse-shoulder-prosthesis', name: 'Reverse Shoulder Prosthesis', subtitle: 'Reverse total shoulder with 145° neck angle glenoid & Ti-coated stem', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/shoulder-reverse-main.png' },
+    { _id: 'j23', slug: 'tumoral-shoulder-prosthesis', name: 'Tumoral Shoulder Prosthesis', subtitle: 'Proximal humeral bone tumor replacement - Ti-coated tumoral stem', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/shoulder-tumoral-main.png' },
   ],
 };
 

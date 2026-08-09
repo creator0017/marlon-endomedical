@@ -1330,6 +1330,84 @@ const fallbackProducts = [
     featured: false,
     certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'Osteopathia Shoulder Prosthesis',
+    slug: 'osteopathia-shoulder-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Anatomical humeral stem & head with biological fixation - biomechanical design',
+    description: 'Osteopathia shoulder prosthesis for shoulder joint replacement. The humeral stem uses a biomechanical design with a rectangular anti-rotation profile that ensures stability, and an anatomical prosthesis with biological fixation. Suture holes on the proximal humerus assist reconstruction and restore shoulder joint function. The humeral head features an edge arc design that lowers shear force and protects soft tissue, different offset designs to better cover the anatomical neck, and different heights to improve the shoulder\'s stability and function. Indicated for osteoarthritis, rheumatoid arthritis, traumatic arthritis, osteonecrosis, and other shoulder diseases.',
+    specifications: [
+      { label: 'System', value: 'Osteopathia shoulder prosthesis' },
+      { label: 'Humeral Stem', value: 'Biomechanical design, rectangular anti-rotation profile' },
+      { label: 'Fixation', value: 'Anatomical prosthesis - biological fixation' },
+      { label: 'Stem Sizes', value: '#100 to #145, length 100-145mm, distal diameter 6-15mm' },
+      { label: 'Humeral Head', value: '36-48mm outer diameter, 16/18/21mm heights' },
+      { label: 'Proximal Details', value: 'Suture holes assist reconstruction & restore shoulder function' },
+      { label: 'Head Design', value: 'Edged arc, offset & height options for neck coverage' },
+      { label: 'Indications', value: 'Osteoarthritis, rheumatoid arthritis, traumatic arthritis, osteonecrosis' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Biomechanical design - multiple models available', 'Rectangular stem anti-rotation design for stability', 'Anatomical prosthesis - biological fixation', 'Proximal suture holes assist reconstruction', 'Edge arc head design - lower shear force, protects soft tissue', 'Offset options to cover the anatomical neck', 'Multiple heights for shoulder stability', 'Applicable to osteoarthritis, RA, traumatic arthritis, osteonecrosis'],
+    image: '/products/shoulder-osteopathia-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Reverse Shoulder Prosthesis',
+    slug: 'reverse-shoulder-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Reverse total shoulder with 145° neck angle glenoid & Ti-coated stem',
+    description: 'Reverse shoulder prosthesis for shoulder arthroplasty with a proximal oval humeral stem with Ti coating for good bone ingrowth and 8 holes for rotator cuff suture. The distal stem features a matt surface, conical design and anti-rotation groove. The humeral head uses taper press-fit for solid fixation, an arc shape that reduces injury to other soft tissues, 4 diameters with different heights, in Co-Cr-Mo material. The upper humerus has a taper match with the stem for solid fixation, a needle slot design, press-fit with liner and anti-rotation, and two heights for offset adjustment. The glenoid cavity is available in 8 specifications with two heights, a 145° neck angle to prevent dislocation and press-fit solid fixation. The broach has a taper press fit with the humeral head, an eccentric design that lets the humeral head move downward in a larger range to reduce acromion contact, and a trabecular surface for solid fixation and bone ingrowth. Indicated for proximal humerus fracture, rheumatoid arthritis, and osteoarthritis caused by rotator cuff injury.',
+    specifications: [
+      { label: 'System', value: 'Reverse shoulder prosthesis' },
+      { label: 'Humeral Stem', value: 'Oval anti-rotation design, Ti-coating, 8 rotator cuff suture holes' },
+      { label: 'Distal Stem', value: 'Matt surface, conical design, anti-rotation groove' },
+      { label: 'Humerus Head', value: 'Co-Cr-Mo, 4 diameters & heights, taper press fit, arc shape' },
+      { label: 'Upper Humerus', value: 'Eight needle slot, press-fit with liner, two heights' },
+      { label: 'Glenoid cavity', value: '8 specifications, 2 heights, 145° neck angle' },
+      { label: 'Broach', value: 'Taper press-fit, eccentric design, trabecular ingrowth surface' },
+      { label: 'Screw', value: 'Anti-rotation locking cap, Ti-coating' },
+      { label: 'Stem Sizes', value: '100~145# length 100-145mm, distal 10-15mm' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Proximal oval stem with Ti-coating for bone ingrowth', '8 rotator cuff suture holes', 'Glenoid cavity - 145° neck angle prevents dislocation', 'Co-Cr-Mo humeral head, 4 diameters', 'Eccentric broach - larger downward range, less acromion contact', 'Compatible with standard system', 'Indicated for proximal humerus fracture, RA, cuff tear OA'],
+    image: '/products/shoulder-reverse-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Tumoral Shoulder Prosthesis',
+    slug: 'tumoral-shoulder-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Proximal humeral bone tumor replacement - Ti-coated modular tumoral stem',
+    description:
+      'Tumoral shoulder prosthesis for patients with proximal humeral bone tumor. The humeral stem uses a biomechanical design with different sizes available; the spiral groove structure at the distal stem allows better contact with bone cement, while the proximal stem has a Ti-coating that promotes bone ingrowth and stability. Modular components (upper end, stem, broach) are manufactured from Ti6Al4V and are compatible with both the reverse shoulder system and the standard system, allowing flexible reconstruction. Upper end 47.5mm, stem 22mm, broach with distal stem length 90/110mm (9-11mm distal diameter) and proximal stem length 10/20/30/40mm available.',
+    specifications: [
+      { label: 'System', value: 'Tumoral shoulder prosthesis' },
+      { label: 'Indication', value: 'Proximal humeral bone tumor' },
+      { label: 'Material', value: 'Ti6Al4V' },
+      { label: 'Upper End', value: '47.5mm' },
+      { label: 'Stem', value: '22mm diameter' },
+      { label: 'Broach', value: 'Distal length 90/110mm (9/10/11mm diameter); proximal 10/20/30/40mm' },
+      { label: 'Distal Stem', value: 'Spiral groove for better cement contact' },
+      { label: 'Proximal Stem', value: 'Ti-coating for bone ingrowth & stability' },
+      { label: 'Compatibility', value: 'Works with reverse shoulder system & standard system' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['For proximal humeral bone tumor replacement', 'Ti6Al4V upper end, stem & Broach', 'Spiral groove distal stem - better cement contact', 'Ti-coated proximal stem - bone ingrowth', 'Multiple stem sizes', 'Compatible with a reverse shoulder and standard system'],
+    image: '/products/shoulder-tumoral-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 
