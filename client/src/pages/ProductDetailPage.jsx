@@ -1278,6 +1278,32 @@ const fallbackProducts = [
     featured: false,
     certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'T-Free XM Knee System (PS / CR)',
+    slug: 't-free-xm-knee-system-ps-cr',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Primary total knee with PS & CR variants - anatomical fit, tri-fin tibial plateau',
+    description: 'T-Free XM knee system for primary total knee arthroplasty, combining international advanced design philosophy with the anatomical bone features of patients of multiple countries. The anatomical prosthesis is best adjustable to the human body; an open intercondylar design reduces osteotomy, and a deeper trochlear recess enables good contact with the patella when taking high flexion and prevents dislocation. The single-radius tibial insert and femoral condyle effectively increase contact area and assure the motion stability of the ligaments. A tri-fin design of the tibial plateau distributes load evenly and enhances anti-location. PS and CR prosthesis variants are available in various sizes with precise, simple and practical instruments. Suitable for rheumatoid arthritis, osteoarthritis, ankylosis of the knee, and other knee diseases amenable to surface knee replacement.',
+    specifications: [
+      { label: 'System', value: 'T-Free XM knee system (primary total knee)' },
+      { label: 'Application', value: 'Primary total knee replacement - rheumatoid arthritis, osteoarthritis, ankylosis' },
+      { label: 'Femoral Components', value: 'PS & CR options' },
+      { label: 'Femoral Condyle Sizes', value: '#2-#10, AP 52-71mm, ML 57-77mm' },
+      { label: 'Tibial Tray Sizes', value: '#2-#10, AP 41-52mm, ML 62-81mm' },
+      { label: 'Tibial Insert Sizes', value: '#2-#10, AP 41-52mm, ML 62-81mm' },
+      { label: 'Patella Options', value: 'Diameter 26-35mm, thickness 8-12mm' },
+      { label: 'Design', value: 'Tri-fin tibial plateau, open intercondylar, deeper trochlear recess' },
+      { label: 'Extra-motion', value: 'Single-radius femoral & tibial insert for ligament stability' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['PS (posterior-stabilised) & CR (cruciate-retaining) variants', 'Anatomical fit - best adjustable to human body', 'Open intercondylar design reduces osteotomy', 'Deeper trochlear recess - stable patellar tracking in high flexion', 'Single-radius femoral & tibial insert increases contact area', 'Tri-fin tibial plateau - even load distribution & anti-location', 'Multiple sizes available', 'Precise, simple and practical instruments'],
+    image: '/products/xm-knee-system-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 
