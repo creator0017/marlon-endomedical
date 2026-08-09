@@ -75,14 +75,14 @@ const categoryMeta = {
     accentColor: '#4d7c0f',
     glowColor: 'rgba(77,124,15,0.3)',
     tagline: 'Hip joint replacement implants — acetabular cups & femoral stems',
-    description: 'Marlon Endomedical\'s joint replacement line includes hip acetabular cup systems (Type-A obturator & Type-B ischial plate) with a uniform rough surface for bone ingrowth, and titanium femoral stems with 12/14 taper in straight and curved left/right configurations.',
+    description: 'Marlon Endomedical\'s joint replacement line includes hip acetabular cup systems (Type-A obturator & Type-B ischial plate) with a uniform rough surface for bone ingrowth, titanium femoral stems with 12/14 taper in straight and curved left/right configurations, cementless finger knuckle (MCP/PIP) prostheses, and a full modular/customized tumor prosthesis range covering hip, hemi-pelvis, knee, shoulder and elbow systems for bone-tumor limb salvage.',
     highlights: [
       { icon: 'precision_manufacturing', label: 'Acetabular Cup — Uniform Rough Surface' },
       { icon: 'inventory_2', label: 'Femoral Stem — Straight & Curved L/R' },
       { icon: 'science', label: 'Ti6Al4V Titanium Alloy Construction' },
-      { icon: 'autorenew', label: 'Normal, Revision 200 & Revision 250 Options' },
+      { icon: 'autorenew', label: 'Tumor — Hip, Hemi-Pelvis, Knee, Shoulder & Elbow' },
     ],
-    useCases: ['Total Hip Arthroplasty', 'Total Hip Replacement', 'Hip Revision Surgery', 'Acetabular Reaming & Implantation'],
+    useCases: ['Total Hip Arthroplasty', 'Total Hip Replacement', 'Hip Revision Surgery', 'Acetabular Reaming & Implantation', 'Bone Tumor Resection & Limb Salvage', 'Finger Joint Replacement (MCP & PIP)'],
     hsnCode: '9018',
   },
 };
@@ -179,6 +179,14 @@ const fallbackProducts = {
     { _id: 'j2', slug: 'rough-surface-160-femoral-stem', name: 'Rough Surface 160 Femoral Stem', subtitle: 'Titanium femoral stem - straight & curved (L/R) options', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/joint-stem-main.png' },
     { _id: 'j3', slug: 'cementless-finger-metacarpophalangeal-mcp-knuckle-prosthesis', name: 'Cementless Finger Metacarpophalangeal (MCP) Knuckle Prosthesis', subtitle: 'Cementless, unconstrained finger joint prosthesis - MCP joint', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/finger-mcp-main.jpg' },
     { _id: 'j4', slug: 'cementless-proximal-interphalangeal-pip-knuckle-prosthesis', name: 'Cementless Proximal Interphalangeal (PIP) Knuckle Prosthesis', subtitle: 'Cementless, unconstrained finger joint prosthesis - PIP joint', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/finger-pip-main.jpg' },
+    { _id: 'j5', slug: 'custom-modular-tumor-hip-prosthesis-proximal-femur', name: 'Custom (Modular) Tumor Hip Prosthesis - Proximal Femur', subtitle: 'Proximal femur tumor replacement with suturing holes & bulky trochanter design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/tumor-hip-proximal-femur.jpg' },
+    { _id: 'j6', slug: 'gearing-type-hemi-pelvic-tumor-prosthesis', name: 'Gearing Type Hemi-Pelvic Tumor Prosthesis', subtitle: '360° rotating gearing hemi-pelvic prosthesis with Ti+HA double coating', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/tumor-hemipelvic-gearing.jpg' },
+    { _id: 'j7', slug: 'dual-mobility-hemi-pelvis-tumor-prosthesis', name: 'Dual Mobility Hemi-Pelvis Prosthesis', subtitle: '58° dual-mobility hemi-pelvis with 3D printed trabecular structure', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/tumor-hemipelvis-dual-mobility.jpg' },
+    { _id: 'j8', slug: 'custom-modular-tumor-knee-prosthesis-distal-femoral', name: 'Custom (Modular) Tumor Knee - Distal Femoral', subtitle: 'Distal femoral tumor knee with cemented/cementless stems', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/tumor-knee-femoral-custom.jpg' },
+    { _id: 'j9', slug: 'femoral-tibial-lengthening-tumor-knee-prosthesis', name: 'Femoral-Tibial Lengthening Tumor Knee Prosthesis', subtitle: 'Extendable combined femur & tibia tumor knee system', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/tumor-knee-femorotibial.jpg' },
+    { _id: 'j10', slug: 'bionic-trabecular-tibia-tumor-prosthesis', name: 'Bionic Trabecular Tibia Tumor Prosthesis', subtitle: 'Patellar ligament trabecular structure, length-adjustable tibia', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/tumor-tibia-trabecular.jpg' },
+    { _id: 'j11', slug: 'reverse-tumor-shoulder-prosthesis', name: 'Reverse Tumor Shoulder Prosthesis', subtitle: 'Limb-salvage reverse shoulder with 3D printed trabecular structure', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/tumor-shoulder-reverse.jpg' },
+    { _id: 'j12', slug: 'custom-tumor-elbow-prosthesis-system', name: 'Custom Artificial Elbow Prosthesis System', subtitle: 'Anatomic elbow joint with carrying angle & anti-rotation groove', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/tumor-elbow.jpg' },
   ],
 };
 

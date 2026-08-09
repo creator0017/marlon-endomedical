@@ -956,6 +956,182 @@ const fallbackProducts = [
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'Custom (Modular) Tumor Hip Prosthesis - Proximal Femur',
+    slug: 'custom-modular-tumor-hip-prosthesis-proximal-femur',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Proximal femur tumor replacement with suturing holes & bulky trochanter design',
+    description: 'Custom and modular proximal femur tumor hip prosthesis designed for tumor resection of the proximal femur. Features suture holes in both greater and lesser trochanter positions for suturing muscles and restoring muscle function, and a bulky design at the greater trochanter position that restores the shape of the hip and increases the torque of gluteus medius. The lateral grooves and shot-blasting surface provide stable fixation with a high survival rate. Available with cemented or cementless stems, and lengthening prostheses can be customized.',
+    specifications: [
+      { label: 'System', value: 'Proximal femur tumor hip prosthesis' },
+      { label: 'Indications', value: 'Proximal femur tumor, inter-trochanteric fracture, massive bone defects' },
+      { label: 'Fixation', value: 'Cemented or cementless stem options' },
+      { label: 'Design', value: 'Suture holes at trochanters, bulky trochanter, lateral grooves' },
+      { label: 'Packaging', value: 'Sterilized and non-sterilized available' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Muscle-suturing holes at trochanters', 'Restored hip shape & gluteus medius torque', 'Shot-blasting surface for stable graft fixation', 'Custom lengthening available', 'Cemented & cementless stems'],
+    image: '/products/tumor-hip-proximal-femur.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Gearing Type Hemi-Pelvic Tumor Prosthesis',
+    slug: 'gearing-type-hemi-pelvic-tumor-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: '360° rotating gearing hemi-pelvic prosthesis with Ti+HA double coating',
+    description: 'Hemi-pelvic tumor prosthesis designed in cooperation with clinical tumor professor Dr. Wei Guo, closely matching human bone structure and biological characteristics. The modular design offers multiple specifications, with a U-type multi-sleeve rotating 360 degrees for adjustment, double gearing design, adjustable anteversion angle and osteotomy position, and a bone trabecular structure for stable bone fixation. The double coating (Ti+HA) enhances osseointegration and it can be used with screws and rods for fixation.',
+    specifications: [
+      { label: 'System', value: 'Hemi-pelvic tumor prosthesis (gearing type)' },
+      { label: 'Design', value: 'Double gearing, 360° rotating U-type multi-sleeve' },
+      { label: 'Coating', value: 'Ti + HA double coating' },
+      { label: 'Resection Sizes', value: '7 types' },
+      { label: 'Pubis Plate', value: '4 sizes, bridgeable to contralateral pubis' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Double gearing anti-rotation system', '360° rotating multi-sleeve adjustment', 'Ti+HA double coating', 'Adjustable anteversion & osteotomy', '7 resection sizes, 4 pubis plate sizes'],
+    image: '/products/tumor-hemipelvic-gearing.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Dual Mobility Hemi-Pelvis Prosthesis',
+    slug: 'dual-mobility-hemi-pelvis-tumor-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: '58° dual-mobility hemi-pelvis with 3D printed trabecular structure',
+    description: 'Dual mobility hemi-pelvis prosthesis designed according to the mechanical structure of the human body to restore movement function to the maximum. The combination design provides various specifications and models according to surgical needs. The highly polished inner wall of the acetabular cup, ball head, inner lining and outer cup reduce the risk of dislocation after operation. Features a 58° dual-mobility articulation with a 3D printed trabecular structure and external locking between the metal outer cup and polyethylene liner.',
+    specifications: [
+      { label: 'System', value: 'Dual mobility hemi-pelvis prosthesis' },
+      { label: 'Articulation', value: '58° dual-mobility' },
+      { label: 'Structure', value: '3D printed trabecular metal outer cup' },
+      { label: 'Liner', value: 'External locking polyethylene liner' },
+      { label: 'Dislocation Risk', value: 'Reduced by high-polish inner wall & cup design' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['58° dual-mobility reduces dislocation', 'High-polish acetabular inner wall', '3D printed trabecular structure', 'External locking outer cup & liner', 'Combination design - multiple models'],
+    image: '/products/tumor-hemipelvis-dual-mobility.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Custom (Modular) Tumor Knee - Distal Femoral',
+    slug: 'custom-modular-tumor-knee-prosthesis-distal-femoral',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Distal femoral tumor knee with cemented/cementless stems',
+    description: 'Custom and modular distal femoral tumor knee prosthesis for bone defects due to tumor and comminuted fracture of the knee joint. The diaphysis is made of forged titanium alloy with UHMWPE surface, giving high strength and light specific gravity. Strong bonding is achieved through taper locking or hinge. The physiological knee flexion and rotation function relieves stem torque force and resists rotation and stress concentration in the medullary cavity. Cemented or cementless distal stems and various sizes are available, with sterile packaging and custom options.',
+    specifications: [
+      { label: 'System', value: 'Distal femoral tumor knee prosthesis' },
+      { label: 'Diaphysis Material', value: 'Forged titanium alloy with UHMWPE surface' },
+      { label: 'Sleeve Option', value: 'Cobalt-chromium-molybdenum metal sleeve (optional)' },
+      { label: 'Bonding', value: 'Taper locking or hinge' },
+      { label: 'Stems', value: 'Cemented or cementless distal stems' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Forged Ti alloy + UHMWPE diaphysis', 'Taper locking or hinge bonding', 'Physiological flexion & rotation', 'Cemented / cementless stems', 'Custom & modular options'],
+    image: '/products/tumor-knee-femoral-custom.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Femoral-Tibial Lengthening Tumor Knee Prosthesis',
+    slug: 'femoral-tibial-lengthening-tumor-knee-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Extendable combined femur & tibia tumor knee system',
+    description: 'Femoral-tibial lengthening tumor knee prosthesis combining femoral and tibial knee features for tumor, comminuted fracture or massive defects in both femur and tibia where a common prosthesis will not work. The osteotomy section uses an adjustable and extendable design to meet the needs of children\'s bone growth, with minimally invasive extended regulation and anti-rotation locking. Available with cemented or cementless stems.',
+    specifications: [
+      { label: 'System', value: 'Femoral-tibial lengthening tumor knee' },
+      { label: 'Indications', value: 'Tumor, comminuted fracture, massive defects in both femur & tibia' },
+      { label: 'Design', value: 'Adjustable & extendable osteotomy section' },
+      { label: 'Stems', value: 'Cemented or cementless' },
+      { label: 'Features', value: 'Lengthening, locking, anti-rotation' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Combined femoral & tibial knee features', 'Extendable for growing patients', 'Minimally invasive regulation', 'Anti-rotation locking', 'Cemented / cementless stems'],
+    image: '/products/tumor-knee-femorotibial.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Bionic Trabecular Tibia Tumor Prosthesis',
+    slug: 'bionic-trabecular-tibia-tumor-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Patellar ligament trabecular structure, length-adjustable tibia',
+    description: 'Bionic trabecular structure tibia tumor prosthesis with a patellar ligament trabecular structure that allows the patellar ligament to be sutured and grow. The bionic trabecular structure is favourable for long-term bone growth, and the high rough surface with conical design is advantageous for initial fixation. It can be combined with a femoral biological medullary stem to form a whole biological prosthesis of the femur and tibia, making later revision easy. Available in an axial model with different sizes of resection parts and length-adjustable options.',
+    specifications: [
+      { label: 'System', value: 'Modular tibia tumor prosthesis' },
+      { label: 'Structure', value: 'Bionic trabecular patellar ligament structure' },
+      { label: 'Fixation', value: 'High rough surface, conical design' },
+      { label: 'Models', value: 'Axial model, length-adjustable custom' },
+      { label: 'Resection Sizes', value: 'Multiple sizes available' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Patellar ligament sutures & grows', 'Bionic trabecular long-term bone growth', 'Conical initial fixation', 'Combine with femoral biological stem', 'Length-adjustable options'],
+    image: '/products/tumor-tibia-trabecular.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Reverse Tumor Shoulder Prosthesis',
+    slug: 'reverse-tumor-shoulder-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Limb-salvage reverse shoulder with 3D printed trabecular structure',
+    description: 'Reverse tumor shoulder prosthesis - a limb-salvage prosthesis for severe tumor of the shoulder when the shoulder cuff cannot be reconstructed. Features a 3D printed trabecular structure for bone ingrowth, proximal suture holes, adjustable length of the total humerus, and different sizes of humeral head and resection parts. A total humerus prosthesis with an ulna prosthesis in prevent-dislocation design is also available for extensive resections.',
+    specifications: [
+      { label: 'System', value: 'Reverse tumor shoulder / total humerus prosthesis' },
+      { label: 'Indications', value: 'Severe tumor of shoulder, unresectable shoulder cuff' },
+      { label: 'Structure', value: '3D printed trabecular structure' },
+      { label: 'Humerus', value: 'Total humerus, adjustable length & diameter' },
+      { label: 'Options', value: 'Various humeral head & resection sizes' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Limb-salvage reverse shoulder', '3D printed trabecular structure', 'Total humerus with prevent-dislocation ulna', 'Adjustable humerus length & diameter', 'Multiple sizes'],
+    image: '/products/tumor-shoulder-reverse.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Custom Artificial Elbow Prosthesis System',
+    slug: 'custom-tumor-elbow-prosthesis-system',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Anatomic elbow joint with carrying angle & anti-rotation groove',
+    description: 'Custom artificial elbow prosthesis system with anatomic design and carrying angle for better physiological function recovery. Available as a standard elbow joint prosthesis system, unilateral-osteotomy and bilateral-osteotomy elbow joints (distal humerus / proximal ulna), and a capitulum radii elbow joint. Features an anti-rotation groove, hinge design with carrying angle, and osteotomy length that can be customized according to clinical needs such as tumor size, extent of injury and skeletal characteristics from MRI, CT and X-ray.',
+    specifications: [
+      { label: 'System', value: 'Custom artificial elbow prosthesis system' },
+      { label: 'Variants', value: 'Standard, unilateral-osteotomy, bilateral-osteotomy, capitulum radii' },
+      { label: 'Design', value: 'Anatomic carrying angle, hinge, anti-rotation groove' },
+      { label: 'Customization', value: 'Osteotomy length customized per patient imaging' },
+      { label: 'Models', value: 'Distal humerus / proximal ulna' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Anatomic carrying angle', 'Anti-rotation groove & hinge design', 'Unilateral / bilateral osteotomy options', 'Patient-specific customization (MRI/CT/X-ray)', 'Capitulum radii elbow variant'],
+    image: '/products/tumor-elbow.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 
