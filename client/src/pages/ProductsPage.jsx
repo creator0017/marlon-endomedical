@@ -63,6 +63,7 @@ const fallbackProducts = [
   { _id: 'j14', slug: 'unilateral-tumor-elbow-prosthesis-customized', name: 'Unilateral Tumor Elbow Prosthesis (Customized)', subtitle: 'Patient-specific osteotomy elbow with custom humerus & ulnar medullary needles', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/elbow-unilateral-tumor.png' },
   { _id: 'j15', slug: 'xa-ps-total-knee-system-squatting-knee', name: 'XA-PS Total Knee System (Squatting Knee)', subtitle: 'Asian-fit PS knee with deep-squat flexion & gradient radius design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/xa-ps-knee-system-main.png' },
   { _id: 'j16', slug: 'xn-rhk-rotating-hinged-knee-system', name: 'XN-RHK Rotating Hinged Knee System', subtitle: 'Revision total knee with 40mm jump hinge, straight/eccentric stems', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/rotating-hinged-knee-main.jpg' },
+  { _id: 'j17', slug: 'be-stem-femoral-stem-ti6al4v-ti-ha', name: 'BE Stem Femoral Stem (Ti6Al4V / Ti+HA)', subtitle: 'Double-taper cementless hip stem, 12/14 taper, Corail-style design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/be-stem-main.png' },
 ];
 
 const categoryFilters = [

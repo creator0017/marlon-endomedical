@@ -1227,6 +1227,31 @@ const fallbackProducts = [
     featured: false,
     certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'BE Stem Femoral Stem (Ti6Al4V / Ti+HA)',
+    slug: 'be-stem-femoral-stem-ti6al4v-ti-ha',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Double-taper cementless femoral stem, 12/14 taper, Corail-style design',
+    description: 'BE stem femoral stem for hip replacement, precision forged from Ti6Al4V with a 12/14 international taper compatible with ceramic femoral heads. The double-taper design increases vertical and rotational stability while optimising proximal medullary filling. Full-length Ti+HA coating induces rapid osseointegration, vertical grooves decompress the medullary cavity and resist rotation, and the trapezoidal proximal cross-section provides rotational stability and self-locking. Based on a Corail-style design with over 25 years of clinical history and 1 million implantations worldwide.',
+    specifications: [
+      { label: 'System', value: 'Femoral stem (hip) - cementless' },
+      { label: 'Material', value: 'Precision forged Ti6Al4V' },
+      { label: 'Taper', value: 'International 12/14 - available for ceramic head' },
+      { label: 'Coating', value: 'Full-length Ti + HA' },
+      { label: 'Design', value: 'Double-taper, trapezoidal-like proximal, double upright groove' },
+      { label: 'Type', value: 'Standard and high-eccentricity prostheses' },
+      { label: 'Sizes', value: '8-16, stem length 115-170mm, neck 33-45mm, offset 24.5-34' },
+      { label: 'Clinical History', value: '25+ years, 1M implantations (Corail base)' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['25+ year / 1M-wearing Corail-style record', 'Ti6Al4V precision forged', '12/14 taper accepts ceramic heads', 'Full Ti+HA coating osseointegration', 'Double-taper vertical & rotational stability', 'Threaded holding & simple insertion'],
+    image: '/products/be-stem-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 
