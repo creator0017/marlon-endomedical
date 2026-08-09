@@ -194,6 +194,7 @@ const fallbackProducts = {
     { _id: 'j17', slug: 'be-stem-femoral-stem-ti6al4v-ti-ha', name: 'BE Stem Femoral Stem (Ti6Al4V / Ti+HA)', subtitle: 'Double-taper cementless hip stem, 12/14 taper, Corail-style design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/be-stem-main.png' },
     { _id: 'j18', slug: 'xm-knee-with-tin-coating-t-free', name: 'XM Knee with TiN Coating (T-Free)', subtitle: 'TiNbN PVD-coated CoCrMo total knee - reduced metal-ion release & high wear resistance', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/xm-knee-tin-main.png' },
     { _id: 'j19', slug: 't-free-xm-knee-system-ps-cr', name: 'T-Free XM Knee System (PS / CR)', subtitle: 'Primary total knee with PS & CR variants - anatomical fit, tri-fin tibial plateau', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/xm-knee-system-main.png' },
+    { _id: 'j20', slug: 'g20-trabecular-structured-cup', name: 'G20 Trabecular Structured Cup', subtitle: '3D-printed trabecular metal acetabular cup with highly cross-linked UHMWPE liner', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/g20-trabecular-cup-main.png' },
   ],
 };
 

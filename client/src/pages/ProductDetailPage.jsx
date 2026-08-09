@@ -1304,6 +1304,32 @@ const fallbackProducts = [
     featured: false,
     certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'G20 Trabecular Structured Cup',
+    slug: 'g20-trabecular-structured-cup',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: '3D-printed trabecular metal acetabular cup with highly cross-linked UHMWPE liner',
+    description: 'G20 trabecular structural cup is a 3D-printed trabecular metal outer acetabular cup designed for hip replacement. The interconnected micro-porous mesh structure allows bone to grow in quickly and reliably for excellent osseointegration, and the good biocompatibility of titanium alloy is more conducive to bone ingrowth. The elastic modulus of the porous layer reaches the physiological bone level of the human body, allowing the implant to conform to physiological stress distribution and reduce stress shielding. The rough outer surface gives a large coefficient of friction with the bone bed, providing excellent primary stability after implantation. The system pairs with a highly cross-linked UHMWPE acetabular liner featuring edge design for anti-rotation stability and a high-side anti-dislocation design.',
+    specifications: [
+      { label: 'System', value: 'G20 trabecular structured cup (hip)' },
+      { label: 'Cup Series', value: 'G20 modular acetabular cup' },
+      { label: 'Cup Sizes', value: 'G20: 40-60mm; G40: 50-72mm' },
+      { label: 'Liner Sizes', value: 'G20: 42/22 to 72/36; G40: 50/32-72/36 (head/inner)' },
+      { label: 'Liner Material', value: 'Highly cross-linked UHMWPE' },
+      { label: 'Porous Structure', value: '3D-printed trabecular metal, interconnected micro-pores' },
+      { label: 'Osseointegration', value: 'Fast, reliable bone ingrowth - titanium alloy biocompatibility' },
+      { label: 'Primary Stability', value: 'Rough outer surface - high friction coefficient with bone bed' },
+      { label: 'Liner Design', value: 'Anti-rotation edge + high-side anti-dislocation design' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['3D-printed trabecular metal outer cup', 'Interconnected micro-pores for rapid bone ingrowth', 'Elastic modulus matching physiological bone level', 'Reduces stress shielding', 'Rough surface for excellent primary stability', 'Highly cross-linked UHMWPE liner - low wear, high toughness', 'Anti-rotation edge design', 'High-side anti-dislocation liner design'],
+    image: '/products/g20-trabecular-cup-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 
