@@ -198,6 +198,8 @@ const fallbackProducts = {
     { _id: 'j21', slug: 'osteopathia-shoulder-prosthesis', name: 'Osteopathia Shoulder Prosthesis', subtitle: 'Anatomical humeral stem & head with biological fixation - biomechanical design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/shoulder-osteopathia-main.png' },
     { _id: 'j22', slug: 'reverse-shoulder-prosthesis', name: 'Reverse Shoulder Prosthesis', subtitle: 'Reverse total shoulder with 145° neck angle glenoid & Ti-coated stem', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/shoulder-reverse-main.png' },
     { _id: 'j23', slug: 'tumoral-shoulder-prosthesis', name: 'Tumoral Shoulder Prosthesis', subtitle: 'Proximal humeral bone tumor replacement - Ti-coated tumoral stem', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/shoulder-tumoral-main.png' },
+    { _id: 'j24', slug: 'standard-elbow-prosthesis', name: 'Standard Elbow Prosthesis', subtitle: 'Anatomic elbow with own carrying angle, hinge structure & cement fixation', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/elbow-standard-main.png' },
+    { _id: 'j25', slug: 'unilateral-tumor-elbow-prosthesis', name: 'Unilateral Tumor Elbow Prosthesis', subtitle: 'Customizable unilateral tumor elbow with anti-rotation groove', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/elbow-tumoral-main.png' },
   ],
 };
 
@@ -374,3 +376,5 @@ export default function CategoryPage() {
     </>
   );
 }
+
+

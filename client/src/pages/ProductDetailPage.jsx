@@ -1408,6 +1408,57 @@ const fallbackProducts = [
     featured: false,
     certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'Standard Elbow Prosthesis',
+    slug: 'standard-elbow-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Anatomic elbow with own carrying angle, hinge structure & cement fixation',
+    description:
+      'Standard elbow prosthesis with an anatomic design of the elbow joint carrying its own carrying angle for better recovery of physiological function. The hinge structure fits the physiological angle, the anti-rotation groove resists rotation, and cement prosthesis provides firm fixation. The humeral and ulnar medullary needles allow precise positioning during implantation.',
+    specifications: [
+      { label: 'System', value: 'Standard elbow prosthesis' },
+      { label: 'Design', value: 'Anatomic with own carrying angle' },
+      { label: 'Hinge', value: 'Hinge structure fits physiological angle' },
+      { label: 'Anti-Rotation', value: 'Anti-rotation groove' },
+      { label: 'Fixation', value: 'Cement prosthesis' },
+      { label: 'Humerus Medullary Needle', value: 'Distal Dia 6/7mm, Prox Dia 7/8mm' },
+      { label: 'Ulnar Medullary Needle', value: 'Prox Dia 6mm, Articular Dia 18mm, Distal Dia 4mm' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Anatomic design with own carrying angle', 'Hinge structure fits physiological angle', 'Anti-rotation groove for stability', 'Cement fixation', 'Restores physiological elbow function'],
+    image: '/products/elbow-standard-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Unilateral Tumor Elbow Prosthesis',
+    slug: 'unilateral-tumor-elbow-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Customizable unilateral tumor elbow with anti-rotation groove',
+    description:
+      'Unilateral tumor elbow prosthesis for limb-salvage after bone tumor resection of the distal humerus or proximal ulna. The osteotomy length can be customized and the hinge structure fits the physiological angle with an anti-rotation groove for stability. The implant can be customized according to the patient\'s MRI, CT and X-ray films, tumor size, degree of injury and bone characteristics. The humerus medullary needle length is 40-210mm, distal dia 3-16mm, proximal dia 5-18mm; the ulnar medullary needle length is 40-200mm, distal dia 3-12mm, proximal dia 5-16mm; articular surface width 14-20mm.',
+    specifications: [
+      { label: 'System', value: 'Unilateral tumor elbow prosthesis' },
+      { label: 'Osteotomy', value: 'Customizable length' },
+      { label: 'Hinge', value: 'Hinge structure fits physiological angle' },
+      { label: 'Anti-Rotation', value: 'Anti-rotation groove' },
+      { label: 'Customization', value: 'Per patient MRI, CT, X-ray, tumor size, injury degree, bone characteristics' },
+      { label: 'Articular Surface Width', value: '14-20mm (1mm steps)' },
+      { label: 'Humerus Medullary Needle', value: 'Length 40-210mm (2mm), Distal 3-16mm, Prox 5-18mm (0.5mm)' },
+      { label: 'Ulnar Medullary Needle', value: 'Length 40-200mm (2mm), Distal 3-12mm, Prox 5-16mm (0.5mm)' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Limb-salvage for distal humerus / proximal ulna tumors', 'Customizable osteotomy length', 'Custom made to patient MRI/CT/X-ray', 'Anti-rotation groove', 'Hinge fits physiological angle', 'Wide range of medullary needle sizes'],
+    image: '/products/elbow-tumoral-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 
