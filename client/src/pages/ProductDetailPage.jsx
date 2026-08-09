@@ -1252,6 +1252,32 @@ const fallbackProducts = [
     featured: false,
     certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'XM Knee with TiN Coating (T-Free)',
+    slug: 'xm-knee-with-tin-coating-t-free',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'TiNbN PVD-coated CoCrMo total knee - reduced metal-ion release & high wear resistance',
+    description: 'XM total knee system with T-Free TiN (TiNbN) coating. The femoral condyle and tibial tray are made of cobalt-chromium-molybdenum alloy with a highly polished surface to reduce wear. A titanium-niobium-nitrogen (TiNbN) coating is deposited on the surface by a high-density PVD process to further improve anti-wear performance, reduce release of substrate metal ions (nickel, chromium, cobalt) and improve biocompatibility. The ceramic-like surface isolates the metal prosthesis from the biological environment for improved long-term osseointegration. Design features include a deeper trochlear recess for good patellar contact in high flexion, an open intercondylar design that reduces osteotomy, and a tri-fin tibial plateau that distributes load evenly and enhances anti-dislocation.',
+    specifications: [
+      { label: 'System', value: 'XM knee system with T-Free TiNbN coating' },
+      { label: 'Femoral Material', value: 'CoCrMo alloy - highly polished to reduce wear' },
+      { label: 'Tibial Tray Material', value: 'CoCrMo alloy - highly polished to reduce wear' },
+      { label: 'Coating', value: 'TiNbN (titanium-niobium-nitrogen) - high-density PVD process' },
+      { label: 'Coating Benefits', value: 'Low friction, high wear & corrosion resistance, ceramic-like surface' },
+      { label: 'Biocompatibility', value: 'Reduces allergen ion release (Ni, Cr, Co); ideal for metal-sensitive patients' },
+      { label: 'Femoral Condyle Sizes', value: '#2-#10, AP 52-71mm, ML 55-77mm' },
+      { label: 'Tibial Insert Sizes', value: '#2-#10, AP 41-52mm, ML 62-81mm' },
+      { label: 'Size Range', value: 'Sizes 2# to 10#' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['High-density PVD TiNbN coating on CoCrMo substrate', 'Reduces metal-ion release - recommended for metal-sensitive patients', 'High wear resistance - low coefficient of friction', 'Ceramic surface isolates metal from biological environment', 'Deeper trochlear recess for stable patellar tracking in high flexion', 'Open intercondylar design - reduces bone resection', 'Tri-fin tibial plateau - even load distribution & anti-dislocation', 'CoCrMo femoral condyle & tibial tray with polished surface'],
+    image: '/products/xm-knee-tin-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 

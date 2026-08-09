@@ -192,6 +192,7 @@ const fallbackProducts = {
     { _id: 'j15', slug: 'xa-ps-total-knee-system-squatting-knee', name: 'XA-PS Total Knee System (Squatting Knee)', subtitle: 'Asian-fit PS knee with deep-squat flexion & gradient radius design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/xa-ps-knee-system-main.png' },
     { _id: 'j16', slug: 'xn-rhk-rotating-hinged-knee-system', name: 'XN-RHK Rotating Hinged Knee System', subtitle: 'Revision total knee with 40mm jump hinge, straight/eccentric stems', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/rotating-hinged-knee-main.jpg' },
     { _id: 'j17', slug: 'be-stem-femoral-stem-ti6al4v-ti-ha', name: 'BE Stem Femoral Stem (Ti6Al4V / Ti+HA)', subtitle: 'Double-taper cementless hip stem, 12/14 taper, Corail-style design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/be-stem-main.png' },
+    { _id: 'j18', slug: 'xm-knee-with-tin-coating-t-free', name: 'XM Knee with TiN Coating (T-Free)', subtitle: 'TiNbN PVD-coated CoCrMo total knee - reduced metal-ion release & high wear resistance', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/xm-knee-tin-main.png' },
   ],
 };
 
