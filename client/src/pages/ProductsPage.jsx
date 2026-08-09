@@ -49,6 +49,8 @@ const fallbackProducts = [
   { _id: 'e24', slug: 'endoscopic-spine-equipment-24', name: 'Spine Endoscopy Catalog Set 24', subtitle: 'Full catalog range of endoscopic spine equipment', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-24.jpg' },
   { _id: 'j1', slug: 'acetabular-cup-system-type-a-obturator-type-b-ischial', name: 'Acetabular Cup System (Type-A Obturator & Type-B Ischial)', subtitle: '46 Acetabulum with uniform rough surface', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/joint-acet-main.png' },
   { _id: 'j2', slug: 'rough-surface-160-femoral-stem', name: 'Rough Surface 160 Femoral Stem', subtitle: 'Titanium femoral stem - straight & curved (L/R) options', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/joint-stem-main.png' },
+  { _id: 'j3', slug: 'cementless-finger-metacarpophalangeal-mcp-knuckle-prosthesis', name: 'Cementless Finger Metacarpophalangeal (MCP) Knuckle Prosthesis', subtitle: 'Cementless, unconstrained finger joint prosthesis - MCP joint', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/finger-mcp-main.jpg' },
+  { _id: 'j4', slug: 'cementless-proximal-interphalangeal-pip-knuckle-prosthesis', name: 'Cementless Proximal Interphalangeal (PIP) Knuckle Prosthesis', subtitle: 'Cementless, unconstrained finger joint prosthesis - PIP joint', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/finger-pip-main.jpg' },
 ];
 
 const categoryFilters = [
