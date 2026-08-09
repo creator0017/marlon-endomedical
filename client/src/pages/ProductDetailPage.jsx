@@ -1132,6 +1132,51 @@ const fallbackProducts = [
     featured: false,
     certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'Standard Cemented Elbow Joint Prosthesis',
+    slug: 'standard-cemented-elbow-joint-prosthesis',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Anatomic elbow with carrying angle, hinge structure & anti-rotation groove',
+    description: 'Standard cemented elbow joint prosthesis with an anatomic design and its own carrying angle for better recovery of physiological function. The hinge structure fits the physiological angle and an anti-rotation groove improves stability. The cement prosthesis technique provides immediate, secure fixation for elbow joint replacement.',
+    specifications: [
+      { label: 'System', value: 'Standard cement elbow joint prosthesis' },
+      { label: 'Design', value: 'Anatomic, with carrying angle' },
+      { label: 'Structure', value: 'Hinge structure, anti-rotation groove' },
+      { label: 'Fixation', value: 'Bone cement fixation' },
+      { label: 'Side', value: 'Left (L) and right (R)' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Anatomic design with carrying angle', 'Physiological hinge structure', 'Anti-rotation groove', 'Cemented fixation', 'Physiological function recovery'],
+    image: '/products/elbow-standard-cemented.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Unilateral Tumor Elbow Prosthesis (Customized)',
+    slug: 'unilateral-tumor-elbow-prosthesis-customized',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Patient-specific osteotomy elbow with custom humerus & ulnar medullary needles',
+    description: 'Unilateral tumor elbow prosthesis customized for each patient for bone tumors of the humerus or ulna. The anti-rotation groove and hinge structure fit the physiological angle, and the osteotomy length can be customized according to the patient\'s MRI, CT and X-ray films, tumor size, degree of injury and bone characteristics. Humeral and ulnar medullary needles come in a wide range of diameters and lengths to match different trochlear and medullary cavity sizes.',
+    specifications: [
+      { label: 'System', value: 'Unilateral tumor elbow (customized)' },
+      { label: 'Customization', value: 'Per patient MRI, CT, X-ray, tumor size & bone characteristics' },
+      { label: 'Osteotomy Length', value: 'Customizable' },
+      { label: 'Humeral Modullary Needle', value: 'Length 40-210mm, dia 3-16mm (prox 5-18mm)' },
+      { label: 'Ulnar Modullary Needle', value: 'Length 40-200mm, dia 3-12mm (prox 5-16mm)' },
+      { label: 'Articular Surface Width', value: '14-20mm (1mm increments)' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Patient-specific customization (MRI/CT/X-ray)', 'Custom osteotomy length', 'Hinge structure with anti-rotation groove', 'Wide range of medullary needle sizes', 'Customized for humerus or ulna tumors'],
+    image: '/products/elbow-unilateral-tumor.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 
