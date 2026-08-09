@@ -1177,6 +1177,31 @@ const fallbackProducts = [
     featured: false,
     certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'XA-PS Total Knee System (Squatting Knee)',
+    slug: 'xa-ps-total-knee-system-squatting-knee',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Asian-fit PS knee with deep-squat flexion & gradient radius design',
+    description: 'XA-PS total knee system designed according to Asian bone measurement data for deep flexion and squatting. The PS-plus insert is widened to increase internal and external restrictions, with improved PS cam design where the column is moved backward and double joint surface reduces pressure and wear. Features a high-polished titanium alloy tibial tray, gradient radius condyle design that maintains safe contact area up to 150 degrees, anterior condyle thinning with optimized patellar pulley, and patella options. Suitable for non-inflammatory and inflammatory joint lesions, functional deformity correction, and revision after failed treatments.',
+    specifications: [
+      { label: 'System', value: 'XA-PS total knee system (squatting knee)' },
+      { label: 'Design Basis', value: 'Asian bone measurement data' },
+      { label: 'Flexion', value: 'Deep flexion / squat, safe contact to 150°' },
+      { label: 'Tibial Tray', value: 'High-polished titanium alloy, PS-plus insert' },
+      { label: 'Insert Options', value: 'PS-plus widen, Vit-PE wear & oxidation resistant' },
+      { label: 'Patella', value: 'Round & anatomical prostheses' },
+      { label: 'Stems', value: 'Cemented & cementless extension stems' },
+      { label: 'Size Range', value: 'Sizes 1S to 10L+, AP 40-103mm ML 35-94mm' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Deep squat & flexion Asian fit', 'Gradient radius condyle, safe to 150°', 'Improved PS cam - double joint surface', 'High-polished titanium tray, back structure', 'PS-plus & Vit E inserts', 'Round & anatomical patellar options', 'Cemented / cementless extension stems'],
+    image: '/products/xa-ps-knee-system-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 

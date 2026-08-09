@@ -61,6 +61,7 @@ const fallbackProducts = [
   { _id: 'j12', slug: 'custom-tumor-elbow-prosthesis-system', name: 'Custom Artificial Elbow Prosthesis System', subtitle: 'Anatomic elbow joint with carrying angle & anti-rotation groove', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/tumor-elbow.jpg' },
   { _id: 'j13', slug: 'standard-cemented-elbow-joint-prosthesis', name: 'Standard Cemented Elbow Joint Prosthesis', subtitle: 'Anatomic elbow with carrying angle, hinge structure & anti-rotation groove', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/elbow-standard-cemented.jpg' },
   { _id: 'j14', slug: 'unilateral-tumor-elbow-prosthesis-customized', name: 'Unilateral Tumor Elbow Prosthesis (Customized)', subtitle: 'Patient-specific osteotomy elbow with custom humerus & ulnar medullary needles', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/elbow-unilateral-tumor.png' },
+  { _id: 'j15', slug: 'xa-ps-total-knee-system-squatting-knee', name: 'XA-PS Total Knee System (Squatting Knee)', subtitle: 'Asian-fit PS knee with deep-squat flexion & gradient radius design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/xa-ps-knee-system-main.png' },
 ];
 
 const categoryFilters = [
