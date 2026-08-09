@@ -1202,6 +1202,31 @@ const fallbackProducts = [
     featured: false,
     certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
     price: 'POA'
+  },
+  {
+    name: 'XN-RHK Rotating Hinged Knee System',
+    slug: 'xn-rhk-rotating-hinged-knee-system',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Revision total knee with 40mm jump hinge, straight/eccentric stems',
+    description: 'XN-RHK rotating hinged knee system designed for revision total knee arthroplasty with gross instability, ligament insufficiency, severe fracture, multiple revisions or unbalanced flexion-extension gaps. The hinged device provides a maximum jump height of 40mm. Components are made of titanium alloy femoral stems (straight or eccentric extension), CoCrMo hinged device and tibial tray, detached anti-rotation device and polyethylene tibial insert. Cemented and cementless stems are available with femoral (30/60/100mm) and tibial (40/70/110mm) extension options.',
+    specifications: [
+      { label: 'System', value: 'XN-RHK rotating hinged knee system' },
+      { label: 'Indications', value: 'Revision TKA: gross instability, collateral ligament insufficiency, severe fracture, unbalanced gaps' },
+      { label: 'Hinge Device', value: 'CoCrMo alloy, max jump height 40mm' },
+      { label: 'Femoral Stem', value: 'Titanium, straight/eccentric extension stem' },
+      { label: 'Tibial Tray', value: 'CoCrMo alloy, cemented or cementless' },
+      { label: 'Extension Stems', value: 'Femur 30/60/100mm, Tibia 40/70/110mm (straight & eccentric)' },
+      { label: 'Blocks/Pads', value: 'Distal, posterior, tibia semi-oblique & oblique (5/10mm)' },
+      { label: 'Size Range', value: 'Models 2# to 7#' },
+      { label: 'Certification', value: 'CFDA, ISO 13485:2016, CE Marked' }
+    ],
+    features: ['40mm max jump height hinge', 'Rotating hinged articulation', 'CoCrMo & titanium construction', 'Cemented / cementless stems', 'Straight & eccentric extension stems', 'Detachable anti-rotation device'],
+    image: '/products/rotating-hinged-knee-main.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['CFDA', 'ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 

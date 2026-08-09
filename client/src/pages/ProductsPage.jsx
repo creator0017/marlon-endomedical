@@ -62,6 +62,7 @@ const fallbackProducts = [
   { _id: 'j13', slug: 'standard-cemented-elbow-joint-prosthesis', name: 'Standard Cemented Elbow Joint Prosthesis', subtitle: 'Anatomic elbow with carrying angle, hinge structure & anti-rotation groove', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/elbow-standard-cemented.jpg' },
   { _id: 'j14', slug: 'unilateral-tumor-elbow-prosthesis-customized', name: 'Unilateral Tumor Elbow Prosthesis (Customized)', subtitle: 'Patient-specific osteotomy elbow with custom humerus & ulnar medullary needles', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/elbow-unilateral-tumor.png' },
   { _id: 'j15', slug: 'xa-ps-total-knee-system-squatting-knee', name: 'XA-PS Total Knee System (Squatting Knee)', subtitle: 'Asian-fit PS knee with deep-squat flexion & gradient radius design', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/xa-ps-knee-system-main.png' },
+  { _id: 'j16', slug: 'xn-rhk-rotating-hinged-knee-system', name: 'XN-RHK Rotating Hinged Knee System', subtitle: 'Revision total knee with 40mm jump hinge, straight/eccentric stems', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/rotating-hinged-knee-main.jpg' },
 ];
 
 const categoryFilters = [
