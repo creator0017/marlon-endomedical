@@ -21,7 +21,7 @@ const faqCategories = [
       },
       {
         q: 'Can I request a product sample before placing a bulk order?',
-        a: 'Sample units are available for select product lines for qualified institutional buyers. Sample requests are evaluated case-by-case based on order intent and buyer profile. Contact our sales team at sales@marlonendomedical.com to request a sample evaluation.',
+        a: 'Sample units are available for select product lines for qualified institutional buyers. Sample requests are evaluated case-by-case based on order intent and buyer profile. Contact our sales team at marlonendomedicaldevices@gmail.com to request a sample evaluation.',
       },
       {
         q: 'What payment methods do you accept?',

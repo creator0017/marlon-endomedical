@@ -5,23 +5,28 @@ import { submitInquiry } from '../services/api';
 const contactInfo = [
   {
     icon: 'location_on',
-    title: 'Headquarters',
-    lines: ['Marlon Endomedical Devices Pvt Ltd', 'Industrial Area, Phase-II', 'Chandigarh, India 160002']
+    title: 'Head Office',
+    lines: ['Marlon Endomedical Devices Pvt Ltd', 'Shop No. L 3/2, Paddal Stadium', 'Mandi, Himachal Pradesh 175001']
+  },
+  {
+    icon: 'location_on',
+    title: 'Branch Address',
+    lines: ['290 A/4, Near Petrol Pump', 'Salah, Sunder Nagar', 'District Mandi, Himachal Pradesh 175018']
   },
   {
     icon: 'call',
     title: 'Phone',
-    lines: ['+91 98765 43210', '+91 172 456 7890']
+    lines: ['+91 98161 66456', '+91 93188 64900']
   },
   {
     icon: 'mail',
     title: 'Email',
-    lines: ['sales@marlonendomedical.com', 'support@marlonendomedical.com']
+    lines: ['marlonendomedicaldevices@gmail.com']
   },
   {
     icon: 'schedule',
     title: 'Business Hours',
-    lines: ['Monday – Friday: 9:00 AM – 6:00 PM', 'Saturday: 10:00 AM – 2:00 PM']
+    lines: ['Monday – Saturday: 9:00 AM – 6:00 PM', 'Sunday: Closed']
   }
 ];
 

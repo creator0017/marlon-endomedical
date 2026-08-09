@@ -4,7 +4,7 @@ export default function WhatsAppWidget() {
       {/* Phone call button - left side */}
       <div className="phone-widget" id="phone-widget">
         <a
-          href="tel:+919876543210"
+          href="tel:+919816166456"
           className="whatsapp-widget__btn phone-widget__btn"
           aria-label="Call us"
           id="phone-btn"
@@ -17,7 +17,7 @@ export default function WhatsAppWidget() {
       {/* WhatsApp button - right side */}
       <div className="whatsapp-widget" id="whatsapp-widget">
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/919816166456"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-widget__btn"

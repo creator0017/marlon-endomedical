@@ -23,6 +23,38 @@ const fallbackProducts = [
   { _id: '17', slug: 'cl-large-fusion-cage-ivd-series', name: 'CL Large Fusion Cage (IVD Series)', subtitle: '3D-Printed ALIF / LLIF / OLIF Fusion System', category: 'spine-surgery', price: 'POA', inStock: true, image: '' },
   { _id: '18', slug: 'adjustable-artificial-vertebral-body-fixation-system', name: 'Adjustable Artificial Vertebral Body Fixation System', subtitle: 'Expandable Corpectomy Prosthesis System', category: 'spine-surgery', price: 'POA', inStock: true, image: '' },
   { _id: '19', slug: '3d-porous-vertebral-prosthesis-model-ia-cervical-model-ib-lumbar', name: '3D Porous Vertebral Prosthesis (Model I-A Cervical & Model I-B Lumbar)', subtitle: '3D-Printed Corpectomy Vertebral Replacement', category: 'spine-surgery', price: 'POA', inStock: true, image: '' },
+  { _id: 'e1', slug: 'endoscopic-spine-equipment-01', name: 'Endoscopic Spine Telescope System', subtitle: 'Rigid endoscope & rod lens optics for surgical spine visualization', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-01.jpg' },
+  { _id: 'e2', slug: 'endoscopic-spine-equipment-02', name: 'Percutaneous Endoscopic Spine Set 2', subtitle: 'Transforaminal endoscopic spine surgical system', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-02.jpg' },
+  { _id: 'e3', slug: 'endoscopic-spine-equipment-03', name: 'Endoscopic Spine Instrument Set 3', subtitle: 'Full spine endoscopy instrument kit', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-03.jpg' },
+  { _id: 'e4', slug: 'endoscopic-spine-equipment-04', name: 'Spinal Endoscope Working Set 4', subtitle: 'Endoscope working channel set with scope & tools', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-04.jpg' },
+  { _id: 'e5', slug: 'endoscopic-spine-equipment-05', name: 'Interlaminar Endoscopy Unit 5', subtitle: 'Interlaminar approach endoscopic equipment', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-05.jpg' },
+  { _id: 'e6', slug: 'endoscopic-spine-equipment-06', name: 'Endoscopic Spine Instrument Kit 6', subtitle: 'Specialized endoscopic spine instruments', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-06.jpg' },
+  { _id: 'e7', slug: 'endoscopic-spine-equipment-07', name: 'Full-HD Spine Endoscopy Console 7', subtitle: 'High-definition endoscopic visualization console', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-07.jpg' },
+  { _id: 'e8', slug: 'endoscopic-spine-equipment-08', name: 'Endoscopic Spine Scope & Trocar Set 8', subtitle: 'Endoscope with trocar and introducer system', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-08.jpg' },
+  { _id: 'e9', slug: 'endoscopic-spine-equipment-09', name: 'Percutaneous Endoscopic System 9', subtitle: 'Instruments and optics for percutaneous endoscopy', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-09.jpg' },
+  { _id: 'e10', slug: 'endoscopic-spine-equipment-10', name: 'Endoscopic Spine Surgical Tray 10', subtitle: 'Complete surgical tray with endoscopic instruments', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-10.jpg' },
+  { _id: 'e11', slug: 'endoscopic-spine-equipment-11', name: 'Spine Endoscopy Equipment 11', subtitle: 'Compact endoscopic spine surgery equipment', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-11.jpg' },
+  { _id: 'e12', slug: 'endoscopic-spine-equipment-12', name: 'Transforamal Endoscopic Set 12', subtitle: 'Transforamal endoscopic spine surgical instruments', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-12.jpg' },
+  { _id: 'e13', slug: 'endoscopic-spine-equipment-13', name: 'Endoscopic Spine Optics System 13', subtitle: 'Rod-lens endoscope optics with light cable', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-13.jpg' },
+  { _id: 'e14', slug: 'endoscopic-spine-equipment-14', name: 'Endoscopic Spine Procedure Kit 14', subtitle: 'Complete kit for endoscopic spine procedures', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-14.jpg' },
+  { _id: 'e15', slug: 'endoscopic-spine-equipment-15', name: 'Spinal Endoscope Console 15', subtitle: 'Spinal endoscope with camera coupling', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-15.jpg' },
+  { _id: 'e16', slug: 'endoscopic-spine-equipment-16', name: 'Endoscopic Spine Revolution Set 16', subtitle: 'Revolver-type endoscopic spine working instruments', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-16.jpg' },
+  { _id: 'e17', slug: 'endoscopic-spine-equipment-17', name: 'Endoscopic Radiofrequency System 17', subtitle: 'RF generator and probes for endoscopic spine surgery', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-17.jpg' },
+  { _id: 'e18', slug: 'endoscopic-spine-equipment-18', name: 'Endoscopic Spine Bipolar Set 18', subtitle: 'Bipolar endoscopic instruments for coagulation', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-18.jpg' },
+  { _id: 'e19', slug: 'endoscopic-spine-equipment-19', name: 'Endoscopic Cutting Systems 19', subtitle: 'Powered cutting and burr systems for endoscopy', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-19.jpg' },
+  { _id: 'e20', slug: 'endoscopic-spine-equipment-20', name: 'Spine Endoscopy Full Set 20', subtitle: 'Complete endoscopic spine equipment set', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-20.jpg' },
+  { _id: 'e21', slug: 'endoscopic-spine-equipment-21', name: 'Endoscopic Spine Instrumentation 21', subtitle: 'Endoscopic instruments for spine decompression', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-21.jpg' },
+  { _id: 'e22', slug: 'endoscopic-spine-equipment-22', name: 'Percutaneous Endoscopy Unit 22', subtitle: 'Percutaneous endoscopic spine surgery set', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-22.jpg' },
+  { _id: 'e23', slug: 'endoscopic-spine-equipment-23', name: 'Endoscopic Spine Brochure Kit 23', subtitle: 'Endoscopic spine surgical product line', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-23.jpg' },
+  { _id: 'e24', slug: 'endoscopic-spine-equipment-24', name: 'Spine Endoscopy Catalog Set 24', subtitle: 'Full catalog range of endoscopic spine equipment', category: 'endoscopic-spine-equipments', price: 'POA', inStock: true, image: '/products/endoscopic-24.jpg' },
+  { _id: 'j1', slug: 'acetabular-cup-system-type-a-obturator-type-b-ischial', name: 'Acetabular Cup System (Type-A Obturator & Type-B Ischial)', subtitle: '46 Acetabulum with uniform rough surface', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/joint-acet-main.png' },
+  { _id: 'j2', slug: 'rough-surface-160-femoral-stem', name: 'Rough Surface 160 Femoral Stem', subtitle: 'Titanium femoral stem - straight & curved (L/R) options', category: 'joint-replacement-implants', price: 'POA', inStock: true, image: '/products/joint-stem-main.png' },
+];
+
+const categoryFilters = [
+  { label: 'MIS Spine Implants', category: 'spine-surgery', icon: 'orthopedics' },
+  { label: 'Endoscopic Spine Equipments', category: 'endoscopic-spine-equipments', icon: 'video_camera_front' },
+  { label: 'Joint Replacement Implants', category: 'joint-replacement-implants', icon: 'accessibility_new' }
 ];
 
 export default function ProductsPage() {
@@ -79,6 +111,36 @@ export default function ProductsPage() {
               id="search-input"
               style={{ paddingLeft: '3rem' }}
             />
+          </div>
+
+          {/* Category Filters */}
+          <div className="product-filters animate-in animate-delay-3" id="product-filters" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center', marginTop: '1.5rem' }}>
+            {categoryFilters.map(f => {
+              const isActive = activeCategory === f.category;
+              return (
+                <button
+                  key={f.category}
+                  onClick={() => {
+                    const next = isActive ? '' : f.category;
+                    if (next) setSearchParams({ category: next });
+                    else setSearchParams({});
+                  }}
+                  className={isActive ? 'product-filter-chip product-filter-chip--active' : 'product-filter-chip'}
+                  style={{
+                    display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
+                    padding: '0.625rem 1.25rem', borderRadius: 'var(--radius-full)',
+                    border: '1px solid rgba(255,255,255,0.35)', cursor: 'pointer',
+                    background: isActive ? 'var(--on-primary)' : 'rgba(255,255,255,0.12)',
+                    color: isActive ? 'var(--primary)' : 'var(--on-primary)',
+                    fontSize: '0.875rem', fontWeight: 700, letterSpacing: '0.02em',
+                    transition: 'all var(--transition-fast)'
+                  }}
+                >
+                  <span className="material-symbols-outlined" style={{ fontSize: '1.1rem' }}>{f.icon}</span>
+                  {f.label}
+                </button>
+              );
+            })}
           </div>
         </div>
       </section>

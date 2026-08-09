@@ -436,6 +436,480 @@ const fallbackProducts = [
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked', 'FDA 510(k)'],
     price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Telescope System',
+    slug: 'endoscopic-spine-equipment-01',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Rigid endoscope & rod lens optics for surgical spine visualization',
+    description: 'Rigid endoscope system with rod lens optics for high-definition visualization during minimally invasive endoscopic spine surgery. Provides a wide field of view with excellent image quality for decompression and fusion procedures.',
+    specifications: [
+      { label: 'Optics', value: 'Rod lens telescope' },
+      { label: 'Approach', value: 'Percutaneous / transforaminal' },
+      { label: 'Application', value: 'Endoscopic spine surgery' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['High-definition optics', 'Wide field of view', 'Rod lens telescope design', 'Full spine application scope'],
+    image: '/products/endoscopic-01.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Percutaneous Endoscopic Spine Set 2',
+    slug: 'endoscopic-spine-equipment-02',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Transforaminal endoscopic spine surgical system',
+    description: 'Percutaneous transforaminal endoscopic spine surgical system for minimally invasive decompression procedures.',
+    specifications: [
+      { label: 'Approach', value: 'Transforaminal / Percutaneous' },
+      { label: 'Application', value: 'Spine decompression' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Minimally invasive approach', 'Percutaneous access', 'Complete system set'],
+    image: '/products/endoscopic-02.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Instrument Set 3',
+    slug: 'endoscopic-spine-equipment-03',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Full spine endoscopy instrument kit',
+    description: 'Complete spine endoscopy instrument kit for minimally invasive spine surgery.',
+    specifications: [
+      { label: 'Contents', value: 'Full instrument kit' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Full kit coverage', 'Minimally invasive surgery'],
+    image: '/products/endoscopic-03.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Spinal Endoscope Working Set 4',
+    slug: 'endoscopic-spine-equipment-04',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Endoscope working channel set with scope & tools',
+    description: 'Endoscope working channel set with scope and tools for spinal endoscopic procedures.',
+    specifications: [
+      { label: 'Contents', value: 'Working channel scope + tools' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Working channel design', 'Scope + tools combination'],
+    image: '/products/endoscopic-04.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Interlaminar Endoscopy Unit 5',
+    slug: 'endoscopic-spine-equipment-05',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Interlaminar approach endoscopic equipment',
+    description: 'Interlaminar approach endoscopic spine equipment for minimally invasive procedures.',
+    specifications: [
+      { label: 'Approach', value: 'Interlaminar' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Interlaminar approach', 'Minimally invasive'],
+    image: '/products/endoscopic-05.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Instrument Kit 6',
+    slug: 'endoscopic-spine-equipment-06',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Specialized endoscopic spine instruments',
+    description: 'Specialized endoscopic spine instruments for minimally invasive surgical spine procedures.',
+    specifications: [
+      { label: 'Contents', value: 'Specialized instruments' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Specialized instruments', 'Spine surgery'],
+    image: '/products/endoscopic-06.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Full-HD Spine Endoscopy Console 7',
+    slug: 'endoscopic-spine-equipment-07',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'High-definition endoscopic visualization console',
+    description: 'High-definition endoscopic visualization console for spine procedures.',
+    specifications: [
+      { label: 'Display', value: 'Full HD' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Full HD visualization', 'Console system'],
+    image: '/products/endoscopic-07.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Scope & Trocar Set 8',
+    slug: 'endoscopic-spine-equipment-08',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Endoscope with trocar and introducer system',
+    description: 'Endoscope with trocar and introducer system for access in endoscopic spine surgery.',
+    specifications: [
+      { label: 'Contents', value: 'Endoscope + trocar + introducer' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Scope with trocar access', 'Introducer system'],
+    image: '/products/endoscopic-08.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Percutaneous Endoscopic System 9',
+    slug: 'endoscopic-spine-equipment-09',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Instruments and optics for percutaneous endoscopy',
+    description: 'Instruments and optics for percutaneous endoscopic spine surgery.',
+    specifications: [
+      { label: 'Approach', value: 'Percutaneous' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Percutaneous approach', 'Complete optics and instruments'],
+    image: '/products/endoscopic-09.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Surgical Tray 10',
+    slug: 'endoscopic-spine-equipment-10',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Complete surgical tray with endoscopic instruments',
+    description: 'Complete surgical tray with endoscopic spine instruments.',
+    specifications: [
+      { label: 'Contents', value: 'Complete surgical tray' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Complete tray', 'Endoscopic instruments'],
+    image: '/products/endoscopic-10.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Spine Endoscopy Equipment 11',
+    slug: 'endoscopic-spine-equipment-11',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Compact endoscopic spine surgery equipment',
+    description: 'Compact endoscopic spine surgery equipment set.',
+    specifications: [
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Compact design'],
+    image: '/products/endoscopic-11.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Transforamal Endoscopic Set 12',
+    slug: 'endoscopic-spine-equipment-12',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Transforamal endoscopic spine surgical instruments',
+    description: 'Transforamal endoscopic spine surgical instruments.',
+    specifications: [
+      { label: 'Approach', value: 'Transforamal' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Transforamal approach'],
+    image: '/products/endoscopic-12.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Optics System 13',
+    slug: 'endoscopic-spine-equipment-13',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Rod-lens endoscope optics with light cable',
+    description: 'Rod-lens endoscope optics with light cable.',
+    specifications: [
+      { label: 'Optics', value: 'Rod-lens' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Rod-lens optics', 'Light cable included'],
+    image: '/products/endoscopic-13.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Procedure Kit 14',
+    slug: 'endoscopic-spine-equipment-14',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Complete kit for endoscopic spine procedures',
+    description: 'Complete kit for endoscopic spine procedures.',
+    specifications: [
+      { label: 'Contents', value: 'Complete kit' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Complete procedure kit'],
+    image: '/products/endoscopic-14.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Spinal Endoscope Console 15',
+    slug: 'endoscopic-spine-equipment-15',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Spinal endoscope with camera coupling',
+    description: 'Spinal endoscope with camera coupling.',
+    specifications: [
+      { label: 'Contents', value: 'Endoscope + camera coupling' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Camera coupling ready'],
+    image: '/products/endoscopic-15.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Revolution Set 16',
+    slug: 'endoscopic-spine-equipment-16',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Revolver-type endoscopic spine working instruments',
+    description: 'Revolver-type endoscopic spine working instruments.',
+    specifications: [
+      { label: 'Type', value: 'Endoscopic working instruments' }
+    ],
+    features: ['Revolver-type working channel'],
+    image: '/products/endoscopic-16.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Radiofrequency System 17',
+    slug: 'endoscopic-spine-equipment-17',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'RF generator and probes for endoscopic spine surgery',
+    description: 'RF generator and probes for endoscopic spine surgery.',
+    specifications: [
+      { label: 'Type', value: 'RF generator + probes' },
+      { label: 'Function', value: 'Radiofrequency' }
+    ],
+    features: ['RF cautery', 'Endoscopic probes'],
+    image: '/products/endoscopic-17.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Bipolar Set 18',
+    slug: 'endoscopic-spine-equipment-18',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Bipolar endoscopic instruments for coagulation',
+    description: 'Bipolar endoscopic instruments for coagulation.',
+    specifications: [
+      { label: 'Type', value: 'Bipolar instruments' },
+      { label: 'Function', value: 'Coagulation' }
+    ],
+    features: ['Bipolar coagulation'],
+    image: '/products/endoscopic-18.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Cutting Systems 19',
+    slug: 'endoscopic-spine-equipment-19',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Powered cutting and burr systems for endoscopy',
+    description: 'Powered cutting and burr systems for endoscopic spine surgery.',
+    specifications: [
+      { label: 'Type', value: 'Powered cutting / burr system' }
+    ],
+    features: ['Powered cutting', 'Burr system'],
+    image: '/products/endoscopic-19.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Spine Endoscopy Full Set 20',
+    slug: 'endoscopic-spine-equipment-20',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Complete endoscopic spine equipment set',
+    description: 'Complete endoscopic spine equipment set.',
+    specifications: [
+      { label: 'Contents', value: 'Full equipment set' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Complete set'],
+    image: '/products/endoscopic-20.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Instrumentation 21',
+    slug: 'endoscopic-spine-equipment-21',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Endoscopic instruments for spine decompression',
+    description: 'Endoscopic instruments for spine decompression.',
+    specifications: [
+      { label: 'Function', value: 'Spine decompression' },
+      { label: 'Type', value: 'Endoscopic instrumentation' }
+    ],
+    features: ['Decompression instruments'],
+    image: '/products/endoscopic-21.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Percutaneous Endoscopy Unit 22',
+    slug: 'endoscopic-spine-equipment-22',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Percutaneous endoscopic spine surgery set',
+    description: 'Percutaneous endoscopic spine surgery set.',
+    specifications: [
+      { label: 'Approach', value: 'Percutaneous' },
+      { label: 'Type', value: 'Endoscopic equipment' }
+    ],
+    features: ['Percutaneous set'],
+    image: '/products/endoscopic-22.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Endoscopic Spine Brochure Kit 23',
+    slug: 'endoscopic-spine-equipment-23',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Endoscopic spine surgical product line',
+    description: 'Endoscopic spine surgical product line overview.',
+    specifications: [
+      { label: 'Type', value: 'Product line set' }
+    ],
+    features: ['Product line overview'],
+    image: '/products/endoscopic-23.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Spine Endoscopy Catalog Set 24',
+    slug: 'endoscopic-spine-equipment-24',
+    category: 'endoscopic-spine-equipments',
+    hsnCode: '9018',
+    subtitle: 'Full catalog range of endoscopic spine equipment',
+    description: 'Full catalog range of endoscopic spine equipment.',
+    specifications: [
+      { label: 'Type', value: 'Catalog range set' }
+    ],
+    features: ['Full range'],
+    image: '/products/endoscopic-24.jpg',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Acetabular Cup System (Type-A Obturator & Type-B Ischial)',
+    slug: 'acetabular-cup-system-type-a-obturator-type-b-ischial',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: '46 Acetabulum with uniform rough surface',
+    description: 'Hip joint replacement acetabular cup system with a uniform rough surface for enhanced osseointegration. Available in Type-A (obturator type) and Type-B (ischial plate type) configurations. The mesh and hole design allow strong bone tissue adhesion, providing stable, long-term fixation for total hip arthroplasty.',
+    specifications: [
+      { label: 'System', value: 'Hip joint acetabular cup' },
+      { label: 'Surface', value: 'Uniform rough surface' },
+      { label: 'Configurations', value: 'Type-A (Obturator type), Type-B (Ischial plate type)' },
+      { label: 'Sizes', value: '46 (52 - 72 outer diameter range)' },
+      { label: 'Fixing', value: 'Obturator / ischial plate fixation' },
+      { label: 'Certifications', value: 'ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Uniform rough surface for bone ingrowth', 'Type-A Obturator and Type-B Ischial variants', 'Long-term stable fixation', 'Sized 52 to 72 (L/R)'],
+    image: '/products/joint-acet-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
+  },
+  {
+    name: 'Rough Surface 160 Femoral Stem',
+    slug: 'rough-surface-160-femoral-stem',
+    category: 'joint-replacement-implants',
+    hsnCode: '9018',
+    subtitle: 'Titanium femoral stem - straight & curved (L/R) options',
+    description: 'Rough Surface 160 femoral stem for hip joint replacement, manufactured from biocompatible titanium alloy (Ti6Al4V) with a 12/14 taper. Available in straight and curved versions for left and right sides, with normal, revision-200 and revision-250 options to suit different patient anatomies.',
+    specifications: [
+      { label: 'System', value: 'Hip joint femoral stem' },
+      { label: 'Material', value: 'Titanium alloy (Ti6Al4V)' },
+      { label: 'Vascular Taper', value: '12/14' },
+      { label: 'Configurations', value: 'Straight 150, Curved 200 (L/R), Curved 250 (L/R)' },
+      { label: 'Options', value: 'Normal, Revision 200, Revision 250' },
+      { label: 'Certification', value: 'ISO 13485:2016, CE Marked' }
+    ],
+    features: ['Ti6Al4V titanium construction', '12/14 taper', '160 rough surface', 'Straight & curved left/right options'],
+    image: '/products/joint-stem-main.png',
+    inStock: true,
+    featured: false,
+    certifications: ['ISO 13485:2016', 'CE Marked'],
+    price: 'POA'
   }
 ];
 
@@ -486,8 +960,8 @@ Message: ${formData.message}`;
     } catch (err) {
       showToast('Could not submit inquiry. Please try again.', 'error');
     }
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(inquiryText)}`, '_blank');
-    window.location.href = `mailto:sales@marlonendomedical.com?subject=Product Inquiry: ${product?.name}&body=${encodeURIComponent(inquiryText)}`;
+    window.open(`https://wa.me/919816166456?text=${encodeURIComponent(inquiryText)}`, '_blank');
+    window.location.href = `mailto:marlonendomedicaldevices@gmail.com?subject=Product Inquiry: ${product?.name}&body=${encodeURIComponent(inquiryText)}`;
     setSubmitting(false);
   };
 

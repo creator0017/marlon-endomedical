@@ -21,10 +21,10 @@ export default function Footer() {
               <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="footer__social-link glass-panel" aria-label="Instagram" id="footer-social-instagram">
                 <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>share</span>
               </a>
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="footer__social-link glass-panel" aria-label="WhatsApp" id="footer-social-whatsapp">
+              <a href="https://wa.me/919816166456" target="_blank" rel="noopener noreferrer" className="footer__social-link glass-panel" aria-label="WhatsApp" id="footer-social-whatsapp">
                 <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>chat</span>
               </a>
-              <a href="mailto:sales@marlonendomedical.com" className="footer__social-link glass-panel" aria-label="Email" id="footer-social-email">
+              <a href="mailto:marlonendomedicaldevices@gmail.com" className="footer__social-link glass-panel" aria-label="Email" id="footer-social-email">
                 <span className="material-symbols-outlined" style={{ fontSize: '1.25rem' }}>mail</span>
               </a>
             </div>
