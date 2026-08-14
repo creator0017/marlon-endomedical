@@ -108,8 +108,8 @@ export default function HomePage() {
             <div className="hero__visual-glow"></div>
             <div className="hero__visual-frame glass-panel">
               <img
-                src="/products/endoscopic-01.jpg"
-                alt="Endoscopic Spine Telescope System"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKY8m_2TN6EfCD1fief0R5ABF7yoHZWzp6nNgv0G_yy10naGiobzRWH2SG2J3atVu3vTHgUuau-KP-j9HPNSL3G9vo5TYIcVCjgP4sqWE0lWkWmCuG0D462TM83f16oxaUD9I1mkDEYeTNGJXBXLvpyS04WF8nJWv8wVFyuxRmLJdkkYwiO6o5fr2j7Z65f5P_sEAo04EvB3XJIBkVSLPK9oVPjcrxJKIX5sRi15-UczFp8zU8fV1D2BQA-iUQySyEzLAPtDXJSUs"
+                alt="Surgical laparoscope device"
               />
               <div className="hero__model-badge glass-panel">
                 <div className="hero__model-label">Model Series</div>
@@ -246,3 +246,5 @@ export default function HomePage() {
     </>
   );
 }
+
+

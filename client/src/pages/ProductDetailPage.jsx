@@ -331,7 +331,7 @@ const fallbackProducts = [
       { label: 'Indications', value: 'Thoracic and lumbar anterior stabilization' }
     ],
     features: ['Pre-contoured anatomical fit for the anterolateral surface of vertebrae', 'Hook-lock anti-backout screw mechanism preventing post-op screw loosening', 'Rigid angular fixation for early patient mobilization', 'Low-profile design to avoid adjacent soft-tissue and vascular irritation'],
-    image: '/products/cs-anterior-csb1-csb2.jpg',
+    image: '/products/CS Anterior Spinal Internal Fixator.png',
     inStock: true,
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked', 'FDA 510(k)'],
@@ -351,7 +351,7 @@ const fallbackProducts = [
       { label: 'Profile', value: 'Slim body footprint for small speculum channels' }
     ],
     features: ['Biomimetic trabecular lattice promoting full-thickness bone ingrowth', 'Slim profile optimized for insertion through MIS retractor tubes', 'Anatomical surface serrations for immediate press-fit stability', 'High structural strength resisting post-operative cage migration'],
-    image: '/products/cl-mis-cervical-ivn.jpg',
+    image: '/products/cl-mis-cervical-ivn.png',
     inStock: true,
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked', 'FDA 510(k)'],
@@ -371,7 +371,7 @@ const fallbackProducts = [
       { label: 'Graft Cavity', value: 'Preserved central graft lumen' }
     ],
     features: ['Bullet-nosed tip for smooth distraction with minimal nerve retraction', 'High-friction 3D porous surface finish for primary stability without endplate damage', 'Interconnected porous matrix encouraging osteoblast attachment', 'Integrated graft cavity allowing optional supplementary bone graft packing'],
-    image: '/products/cl-shaped-thoracolumbar-ivo.jpg',
+    image: '/products/cl-shaped-thoracolumbar-ivo.png',
     inStock: true,
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked', 'FDA 510(k)'],
@@ -391,7 +391,7 @@ const fallbackProducts = [
       { label: 'Footprint', value: 'Broad cortical-rim spanning geometry' }
     ],
     features: ['Large surface footprint evenly distributing compressive loads to prevent subsidence', 'Multiple lordotic options restoring natural sagittal alignment', 'Bone-mimicking elastic modulus preventing stress shielding', '3D trabecular porous matrix facilitating osteogenesis across the implant'],
-    image: '/products/cl-large-fusion-ivd.jpg',
+    image: '/products/cl-large-fusion-ivd.png',
     inStock: true,
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked', 'FDA 510(k)'],
@@ -411,7 +411,7 @@ const fallbackProducts = [
       { label: 'Material', value: 'High-strength Titanium Alloy (TC4)' }
     ],
     features: ['Continuous height adjustment allowing precise in-situ distraction', 'Swiveling endplates accommodating angulated adjacent vertebral surfaces', 'Positive mechanical locking pins preventing secondary post-op collapse', 'Restores axial weight-bearing alignment after multi-level resection'],
-    image: '/products/adjustable-vertebral-body.jpg',
+    image: '/products/adjustable-vertebral-body.png',
     inStock: true,
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked', 'FDA 510(k)'],
@@ -431,7 +431,7 @@ const fallbackProducts = [
       { label: 'Structure', value: 'Biomimetic full-body 3D porous matrix' }
     ],
     features: ['Model I-A adapted with low-profile lordosis specifically for subaxial cervical spine', 'Model I-B featuring broad heavy-duty footprint for lumbar compressive loads', 'Bypasses autograft harvest morbidity via osteoconductive porous lattice', 'Direct bone bridge formation through the entire prosthesis body'],
-    image: '/products/3d-porous-vertebral-prosthesis.jpg',
+    image: '/products/3d-porous-vertebral-prosthesis.png',
     inStock: true,
     featured: false,
     certifications: ['ISO 13485:2016', 'CE Marked', 'FDA 510(k)'],
