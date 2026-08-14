@@ -674,42 +674,6 @@ const fallbackProducts = [
     price: 'POA'
   },
   {
-    name: 'Endoscopic Spine Procedure Kit 14',
-    slug: 'endoscopic-spine-equipment-14',
-    category: 'endoscopic-spine-equipments',
-    hsnCode: '9018',
-    subtitle: 'Complete kit for endoscopic spine procedures',
-    description: 'Complete kit for endoscopic spine procedures.',
-    specifications: [
-      { label: 'Contents', value: 'Complete kit' },
-      { label: 'Type', value: 'Endoscopic equipment' }
-    ],
-    features: ['Complete procedure kit'],
-    image: '/products/endoscopic-14.jpg',
-    inStock: true,
-    featured: false,
-    certifications: ['ISO 13485:2016', 'CE Marked'],
-    price: 'POA'
-  },
-  {
-    name: 'Spinal Endoscope Console 15',
-    slug: 'endoscopic-spine-equipment-15',
-    category: 'endoscopic-spine-equipments',
-    hsnCode: '9018',
-    subtitle: 'Spinal endoscope with camera coupling',
-    description: 'Spinal endoscope with camera coupling.',
-    specifications: [
-      { label: 'Contents', value: 'Endoscope + camera coupling' },
-      { label: 'Type', value: 'Endoscopic equipment' }
-    ],
-    features: ['Camera coupling ready'],
-    image: '/products/endoscopic-15.jpg',
-    inStock: true,
-    featured: false,
-    certifications: ['ISO 13485:2016', 'CE Marked'],
-    price: 'POA'
-  },
-  {
     name: 'Endoscopic Spine Revolution Set 16',
     slug: 'endoscopic-spine-equipment-16',
     category: 'endoscopic-spine-equipments',
