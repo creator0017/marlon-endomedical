@@ -19,3 +19,15 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Local database
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local dumps & PDFs
+*.pdf
+pdf_text_dump.txt
